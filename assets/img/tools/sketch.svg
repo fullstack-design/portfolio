@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>sketch-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Sketch" transform="translate(-40.000000, -40.000000)">
+            <g id="sketch" transform="translate(40.000000, 40.000000)">
+                <path d="M30.8484312,18.8725709 L37.125,18.8725709 L33.9407895,14.463664 L30.5728745,9.99352227 L22,9.075 L30.6906775,18.5342408 L30.6906775,18.5342408 L22,9.075 L13.3093225,18.5342408 L13.3093225,18.5342408 L22,9.075 L13.4271255,9.99352227 L10.0592105,14.463664 L6.875,18.8725709 L13.1515688,18.8725709 L30.8484312,18.8725709 Z M5,0 L39,0 C41.7614237,-5.07265313e-16 44,2.23857625 44,5 L44,39 C44,41.7614237 41.7614237,44 39,44 L5,44 C2.23857625,44 3.38176876e-16,41.7614237 0,39 L0,5 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 L5,0 Z M22,36.4469636 L37.125,18.8725709 L6.875,18.8725709 L22,36.4469636 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <g id="Group" transform="translate(6.875000, 9.075000)" stroke-linecap="round" stroke="#FFFFFF" stroke-linejoin="round">
+                    <polygon id="Polygon" transform="translate(15.125000, 18.584767) rotate(-180.000000) translate(-15.125000, -18.584767) " points="15.125 9.79757085 30.25 27.3719636 0 27.3719636"></polygon>
+                    <polygon id="Polygon" transform="translate(15.125000, 18.584767) rotate(-180.000000) translate(-15.125000, -18.584767) " points="15.125 9.79757085 24.1265182 27.3719636 6.12348178 27.3719636"></polygon>
+                    <polygon id="Polygon" transform="translate(15.125000, 18.584767) rotate(-180.000000) translate(-15.125000, -18.584767) " points="15.125 9.79757085 23.8203441 27.3719636 6.42965587 27.3719636"></polygon>
+                    <polygon id="Polygon" transform="translate(10.624241, 4.898785) rotate(-180.000000) translate(-10.624241, -4.898785) " points="14.6963563 8.87904858 15.125 6.82121026e-13 6.12348178 9.79757085"></polygon>
+                    <polygon id="Polygon" transform="translate(19.625759, 4.898785) scale(-1, 1) rotate(-180.000000) translate(-19.625759, -4.898785) " points="23.6978745 8.87904858 24.1265182 0 15.125 9.79757085"></polygon>
+                    <polygon id="Polygon" transform="translate(15.125000, 4.898785) rotate(-180.000000) translate(-15.125000, -4.898785) " points="15.125 9.79757085 24.1265182 1.69416887e-13 6.12348178 0"></polygon>
+                    <polygon id="Polygon" transform="translate(15.125000, 4.776316) rotate(-180.000000) translate(-15.125000, -4.776316) " points="15.125 9.55263158 23.6366397 2.33213359e-13 6.61336032 0"></polygon>
+                    <polygon id="Polygon" transform="translate(3.276063, 5.358047) rotate(-180.000000) translate(-3.276063, -5.358047) " points="0 9.79757085 3.36791498 5.32742915 6.55212551 0.918522267 0.122469636 0.918522267"></polygon>
+                    <polygon id="Polygon" transform="translate(3.276063, 5.358047) rotate(-180.000000) translate(-3.276063, -5.358047) " points="0 9.79757085 6.55212551 0.918522267 0.428643725 1.16346154"></polygon>
+                    <polygon id="Polygon" transform="translate(26.973937, 5.358047) scale(-1, 1) rotate(-180.000000) translate(-26.973937, -5.358047) " points="23.6978745 9.79757085 27.0657895 5.32742915 30.25 0.918522267 23.8203441 0.918522267"></polygon>
+                    <polygon id="Polygon" transform="translate(26.973937, 5.358047) scale(-1, 1) rotate(-180.000000) translate(-26.973937, -5.358047) " points="23.6978745 9.79757085 30.25 0.918522267 24.1265182 1.16346154"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

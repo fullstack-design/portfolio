@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>axure-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Axure" transform="translate(-40.000000, -40.000000)" fill="#FFFFFF">
+            <path d="M45,40 L79,40 C81.7614237,40 84,42.2385763 84,45 L84,79 C84,81.7614237 81.7614237,84 79,84 L45,84 C42.2385763,84 40,81.7614237 40,79 L40,45 L40,45 C40,42.2385763 42.2385763,40 45,40 L45,40 Z M48.25,48.25 L48.25,53.875 L75.75,53.875 L75.75,48.25 L48.25,48.25 Z M48.25,56.375 L48.25,75.75 L56.53125,75.75 L56.53125,56.375 L48.25,56.375 Z M59.1875,56.375 L59.1875,75.75 L75.75,75.75 L75.75,56.375 L59.1875,56.375 Z" id="axure"></path>
+        </g>
+    </g>
+</svg>
