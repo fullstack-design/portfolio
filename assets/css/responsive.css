@@ -1,6 +1,6 @@
 /* Medium Layout: 1280px. */
-@media only screen and (min-width: 992px) and (max-width: 1200px) { 
-    
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
 }
 
 /* Tablet Layout: 768px. */
@@ -18,7 +18,7 @@
 	.skills-area { padding-bottom: 40px }
 	.single-skill { margin-bottom: 40px }
 	.count-area { padding-bottom: 50px }
-	.counter { margin-bottom: 30px }	
+	.counter { margin-bottom: 30px }
 	.team-area { padding-bottom: 50px }
 	.single-team { margin-bottom: 30px }
 	.pricing-area { padding-bottom: 50px }
@@ -50,8 +50,7 @@
 		letter-spacing: 5px;
 	}
 	#home-carousel .item h2 {
-		font-size: 24px;
-		margin-bottom: 20px;
+		font-size: 30px;
 	}
 	#home-carousel .item .button {
 		font-size: 10px;
@@ -90,19 +89,6 @@
 }
 
 /* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
-    
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

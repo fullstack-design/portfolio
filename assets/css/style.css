@@ -16,7 +16,7 @@
     08. START COUNT AREA CSS STYLE
     09. START TEAM AREA CSS STYLE
     10. START PRICING AREA CSS STYLE
-    11. START TESTIMONIAL AREA CSS STYLE    
+    11. START TESTIMONIAL AREA CSS STYLE
     12. START BLOG AREA CSS STYLE
     13. START PRODUCTS AREA CSS STYLE
     14. START PARTNER AREA CSS STYLE
@@ -38,7 +38,7 @@ body {
     font-weight: 300;
     letter-spacing: 1px;
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 html,
 body { height: 100% }
@@ -52,12 +52,12 @@ h6 {
     color: #333;
     font-weight: 700;
     letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: 'Titillium Web', sans-serif;
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
 }
 a {
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-transition: all 0.36s;
     transition: all 0.36s;
 }
@@ -130,7 +130,7 @@ fieldset {
 .breadcrumb-title p,
 .breadcrumb-title p a{ color: #fff }
 .button{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     display: inline-block;
     padding: 12px 25px;
@@ -225,16 +225,16 @@ fieldset {
     -webkit-transform: scale3D(0, 0, 1);
             transform: scale3D(0, 0, 1);
     }
-}  
+}
 .loaded .loader {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    -webkit-transition: all 1.3s ease-out;  
+    -webkit-transition: all 1.3s ease-out;
             transition: all 1.3s ease-out;
 }
 .loaded #loader-wrapper {
     visibility: hidden;
-    -webkit-transition: all 0.9s ease-out;  
+    -webkit-transition: all 0.9s ease-out;
             transition: all 0.9s ease-out;
 }
 /*
@@ -333,11 +333,11 @@ fieldset {
     letter-spacing: 7px;
 }
 #home-carousel .item h2 {
-    width: 70%;
+    width: auto;
     color: #fff;
     font-size: 60px;
     font-weight: 300;
-    margin: 0 auto 30px;
+    margin: 0 auto;
 }
 #home-carousel .item h2 span { font-weight: 900; }
 #home-carousel .item .button { color: #fff }
@@ -409,7 +409,7 @@ fieldset {
 .navbar-default .navbar-nav>.active>a:focus { background-color: transparent }
 .navbar-brand {
     color: #fff !important;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: 700;
     padding: 30px 0;
@@ -423,7 +423,7 @@ fieldset {
 .navbar-default .navbar-toggle .icon-bar { background-color: #333 }
 .mainmenu li a {
     color: #fff !important;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 13px;
@@ -440,7 +440,7 @@ fieldset {
 }
 .is-sticky .mainmenu li a {
     padding: 20px 15px;
-    color: #666 !important; 
+    color: #666 !important;
 }
 .is-sticky .mainmenu ul.nav.navbar-nav li.active a { color: #333 !important }
 .is-sticky .navbar-brand {
@@ -570,7 +570,7 @@ a.read-more:hover { color:#333 }
   transform: rotate(180deg);
   opacity: 0;
 }
- @keyframes 
+ @keyframes
 toggle {  0% {
      opacity: 0;
     }
@@ -924,7 +924,7 @@ toggle {  0% {
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
 }
-.single-product:hover .product-overlay{ 
+.single-product:hover .product-overlay{
     background: rgba(255,255,255, 0.7);
     opacity: 1;
 }
