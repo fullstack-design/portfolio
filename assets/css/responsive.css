@@ -33,12 +33,16 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 	.header-top-area { background: #fff none repeat scroll 0 0 }
-	.navbar-default { padding: auto }
+	.navbar-default {
+    padding: auto;
+    min-height: 44px;
+}
 	.navbar-brand {
-		padding: 15px;
+		padding: 13px 0;
 		color: #333 !important;
+    height: 44px;
 	}
-	.is-sticky .navbar-brand { padding: 15px }
+	.is-sticky .navbar-brand { padding: 13px 0; }
 	.mainmenu li a,
 	.is-sticky .mainmenu ul.nav.navbar-nav li  a {
 		color: #666 !important;
