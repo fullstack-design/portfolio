@@ -82,23 +82,10 @@ fieldset {
     padding: 0;
 }
 .section-padding { padding: 80px 0 }
-.section-title { margin-bottom: 60px }
+.section-title { margin-bottom: 45px }
 .section-title h2 {
-    margin-bottom: 10px;
-    padding-bottom: 15px;
     font-size: 36px;
     position: relative;
-}
-.section-title h2:after {
-    border-bottom: 3px solid #333;
-    bottom: 0;
-    content: "";
-    height: 3px;
-    left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    width: 10%;
 }
 .section-title p {
     margin: auto;
@@ -548,7 +535,7 @@ a.read-more:hover { color:#333 }
   margin: 0 auto;
   overflow: hidden;
 }
-.skills-area h4 {
+.skills-area h5 {
   margin-top: 15px;
 }
 .progressbar div {
@@ -593,6 +580,9 @@ toggle {  0% {
 *    06. / END SKILLS AREA CSS STYLE
 * -------------------------------------------------------------
 */
+.single-tool {
+  margin-bottom: 30px;
+}
 /*
 * -------------------------------------------------------------
 *    07. START PORTFOLIO AREA CSS STYLE
@@ -1128,3 +1118,16 @@ toggle {  0% {
 *    18. END PROJECT PAGE CSS STYLE
 * -------------------------------------------------------------
 */
+
+.clients-area img {
+  width: 100%;
+}
+.single-client:nth-child(n+5) img {
+  width: 50%;
+}
+.single-client:nth-child(12) img {
+  width: 100%;
+}
+.single-client {
+  margin-bottom: 30px;
+}
