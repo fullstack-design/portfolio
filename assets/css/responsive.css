@@ -28,6 +28,10 @@
 	.related-projects .single-work { margin-bottom: 20px }
 	.footer-top-area { padding-bottom: 30px }
 	.footer-widget { margin-bottom: 50px }
+
+	.clients-area img {
+	  height: 60px;
+	}
 }
 
 /* Mobile Layout: 320px. */
@@ -95,6 +99,10 @@
 		padding: 0 15px;
 		box-sizing: border-box;
 		float: left;
+	}
+
+	.clients-area img {
+	  height: 60px;
 	}
 }
 
