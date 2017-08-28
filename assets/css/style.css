@@ -36,7 +36,6 @@ body {
     color: #555;
     font-size: 14px;
     font-weight: 300;
-    letter-spacing: 1px;
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
 }
@@ -51,7 +50,6 @@ h6 {
     margin: 0;
     color: #333;
     font-weight: 700;
-    letter-spacing: 1px;
     text-transform: none;
     font-family: 'Roboto', sans-serif;
 }
@@ -125,7 +123,6 @@ fieldset {
     font-weight: 700;
     font-size: 13px;
     color: #333;
-    letter-spacing:1px;
     background: transparent;
     border: 2px solid #333;
     -webkit-transition: 0.36s;
@@ -269,7 +266,6 @@ fieldset {
     display: inline-block;
     font-size: 10px;
     height: 18px;
-    letter-spacing: 0;
     line-height: 16px;
     text-align: center;
     width: 18px;
@@ -317,7 +313,7 @@ fieldset {
 #home-carousel .item p {
     color: #fff;
     font-size: 18px;
-    letter-spacing: 7px;
+    text-align: left;
 }
 #home-carousel .item h2 {
     width: auto;
@@ -325,9 +321,10 @@ fieldset {
     font-size: 60px;
     font-weight: 300;
     margin: 0 auto;
+    text-align: left;
 }
 #home-carousel .item h2 span { font-weight: 900; }
-#home-carousel .item .button { color: #fff }
+#home-carousel .item .button { color: #fff; float: left;}
 #home-carousel .carousel-indicators > li { border-radius: 0; }
 .carousel-fade .carousel-inner .item {
     -webkit-transition-property: opacity;
@@ -413,10 +410,11 @@ fieldset {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 14px;
     padding: 30px 15px;
     -webkit-transition: all 0.36s ease-in-out 0s;
     transition: all 0.36s ease-in-out 0s;
+    letter-spacing: .1rem;
 }
 .mainmenu ul li:last-child a { padding-right: 0 }
 .mainmenu ul.nav.navbar-nav li a:hover { color: #333 !important }
@@ -755,7 +753,6 @@ toggle {  0% {
     font-family: "Ubuntu",sans-serif;
     font-size: 16px;
     font-weight: 300;
-    letter-spacing: 3px;
     margin-bottom: 10px;
     padding: 0 0 10px;
     -webkit-transition: all 0.36s ease 0s;
