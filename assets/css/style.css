@@ -486,7 +486,7 @@ fieldset {
 .single-service {
     background: #fff;
     margin-bottom: 30px;
-    padding: 50px 25px;
+    padding: 30px 25px 70px;
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
 }
@@ -502,7 +502,7 @@ fieldset {
 }
 .single-service p { font-size: 13px }
 a.read-more i {
-    font-size: 10px;
+    font-size: 14px;
     margin-right: 5px;
     color: #999;
     -webkit-transition: all 0.36s ease-in-out 0s;
@@ -510,7 +510,16 @@ a.read-more i {
 }
 a.read-more {
     color: #999;
-    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 103px;
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-left: -51px;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 13px 0;
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
 }
@@ -763,15 +772,15 @@ toggle {  0% {
     display: block;
     margin-top: 10px;
 }
-.pricing-list {
+.pricing-list, .service-list {
     list-style: outside none none;
     text-align: center;
     padding: 0 25px;
 }
-.pricing-list li {
+.pricing-list li, .service-list li {
     border-bottom: 1px solid #eee;
     color: #161616;
-    padding: 15px 0;
+    padding: 8px 0;
     -webkit-transition: all 0.36s ease 0s;
             transition: all 0.36s ease 0s;
 }
