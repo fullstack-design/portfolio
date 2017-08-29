@@ -1,13 +1,10 @@
 /* Hover Effects: more than 1024. */
 @media only screen and (min-width: 1025px) {
 	.single-product:hover {
-		background-size: 120%;
+		background-size: 110%;
 	}
 	.single-product:hover .product-info {
 		background-color: rgba(0,0,0,0);
-	}
-	.single-product:hover a {
-		color: #FFF;
 	}
 	.scroll-indicator:hover {
 		opacity: .5;
@@ -61,7 +58,7 @@
 	.navbar-default {
     padding: auto;
     min-height: 44px;
-}
+	}
 	.navbar-brand {
 		padding: 13px 0;
 		color: #333 !important;
@@ -132,6 +129,9 @@
 	#home-carousel .item p {
     text-align: center;
 	}
+	.shop-grid>div {
+	  width: 100%;
+	}
 }
 
 /* Wide Mobile Layout: 480px. */
@@ -142,5 +142,8 @@
 	#home-carousel .item h2,
 	#home-carousel .item p {
 		text-align: center;
+	}
+	.shop-grid>div {
+	  width: 50%;
 	}
 }

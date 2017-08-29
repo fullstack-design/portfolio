@@ -882,6 +882,9 @@ toggle {  0% {
 *    13. START PRODUCTS AREA CSS STYLE
 * -------------------------------------------------------------
 */
+.shop-grid>div {
+  box-sizing: 
+}
 .shop-grid .shop-all{
     display: none;
     opacity: 0;
@@ -915,6 +918,8 @@ toggle {  0% {
     background-size: 100%;
     position: relative;
     overflow: hidden;
+    float: left;
+    width: 100%;
     margin-top: 30px;
     -webkit-transition: all 0.36s ease 0s;
             transition: all 0.36s ease 0s;
@@ -939,7 +944,7 @@ toggle {  0% {
 }
 .product-overlay > a.button { margin-top: 43% }
 .product-info {
-    padding: 20px;
+    padding: 60px 15px;
     background-color: rgba(0,0,0,.5);
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
@@ -1139,6 +1144,10 @@ toggle {  0% {
 .single-client {
   margin-bottom: 15px;
   text-align: center;
+}
+.single-product h4,
+.single-product h5 {
+  color: #FFF;
 }
 .scroll-indicator {
   width: 44px;
