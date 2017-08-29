@@ -1,6 +1,21 @@
+/* Hover Effects: more than 1024. */
+@media only screen and (min-width: 1025px) {
+	.single-product:hover {
+		background-size: 120%;
+	}
+	.single-product:hover .product-info {
+		background-color: rgba(0,0,0,0);
+	}
+	.single-product:hover a {
+		color: #FFF;
+	}
+	.scroll-indicator:hover {
+		opacity: .5;
+	}
+}
+
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-
 }
 
 /* Tablet Layout: 768px. */
@@ -28,9 +43,15 @@
 	.related-projects .single-work { margin-bottom: 20px }
 	.footer-top-area { padding-bottom: 30px }
 	.footer-widget { margin-bottom: 50px }
-
 	.clients-area img {
 	  height: 60px;
+	}
+	#home-carousel .item .button {
+		float: none;
+	}
+	#home-carousel .item h2,
+	#home-carousel .item p {
+		text-align: center;
 	}
 }
 
@@ -104,9 +125,22 @@
 	.clients-area img {
 	  height: 60px;
 	}
+	#home-carousel .item .button {
+		float: none;
+	}
+	#home-carousel .item h2,
+	#home-carousel .item p {
+    text-align: center;
+	}
 }
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
+	#home-carousel .item .button {
+		float: none;
+	}
+	#home-carousel .item h2,
+	#home-carousel .item p {
+		text-align: center;
+	}
 }
