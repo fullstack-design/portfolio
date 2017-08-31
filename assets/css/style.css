@@ -914,7 +914,7 @@ toggle {  0% {
 .single-product {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     position: relative;
     overflow: hidden;
     float: left;
@@ -970,7 +970,8 @@ toggle {  0% {
 }
 .product-overlay > a.button { margin-top: 43% }
 .product-info {
-    padding: 60px 15px;
+    height: 200px;
+    padding: 72px 15px 0;
     background-color: rgba(0,0,0,.5);
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
