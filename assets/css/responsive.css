@@ -145,5 +145,6 @@
 	}
 	.shop-grid>div {
 	  width: 50%;
+		float: left;
 	}
 }

@@ -883,7 +883,7 @@ toggle {  0% {
 * -------------------------------------------------------------
 */
 .shop-grid>div {
-  box-sizing: 
+  box-sizing:
 }
 .shop-grid .shop-all{
     display: none;
@@ -912,7 +912,6 @@ toggle {  0% {
     color: #fff;
 }
 .single-product {
-    background-image: url(../img/cases/case.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -923,6 +922,33 @@ toggle {  0% {
     margin-top: 30px;
     -webkit-transition: all 0.36s ease 0s;
             transition: all 0.36s ease 0s;
+}
+.itr8 {
+    background-image: url(../img/cases/case.png);
+}
+.sodi {
+    background-image: url(../img/cases/case.png);
+}
+.cornelsen {
+    background-image: url(../img/cases/case.png);
+}
+.herebedragons {
+    background-image: url(../img/cases/case.png);
+}
+.casualfitness {
+    background-image: url(../img/cases/case.png);
+}
+.femmeactuelle {
+    background-image: url(../img/cases/case.png);
+}
+.augit {
+    background-image: url(../img/cases/case.png);
+}
+.amway {
+    background-image: url(../img/cases/case.png);
+}
+.leibers {
+    background-image: url(../img/cases/case.png);
 }
 .single-product:hover {
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
