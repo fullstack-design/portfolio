@@ -924,31 +924,37 @@ toggle {  0% {
             transition: all 0.36s ease 0s;
 }
 .itr8 {
-    background-image: url(../img/cases/case.png);
+    background-image: url(../img/cases/case_itr8.jpg);
 }
 .sodi {
-    background-image: url(../img/cases/case.png);
+    background-image: url(../img/cases/case_sodi.jpg);
 }
 .cornelsen {
-    background-image: url(../img/cases/case.png);
+    background-image: url(../img/cases/case_cornelsen.jpg);
+}
+.zalando {
+    background-image: url(../img/cases/case_zalando.jpg);
 }
 .herebedragons {
-    background-image: url(../img/cases/case.png);
+    background-image: url(../img/cases/case_herebedragons.jpg);
 }
 .casualfitness {
-    background-image: url(../img/cases/case.png);
+    background-image: url(../img/cases/case_casualfitness.jpg);
 }
 .femmeactuelle {
-    background-image: url(../img/cases/case.png);
+    background-image: url(../img/cases/case_femmeactuelle.jpg);
 }
 .augit {
-    background-image: url(../img/cases/case.png);
+    background-image: url(../img/cases/case_augit.jpg);
 }
 .amway {
-    background-image: url(../img/cases/case.png);
+    background-image: url(../img/cases/case_amway.jpg);
 }
 .leibers {
-    background-image: url(../img/cases/case.png);
+    background-image: url(../img/cases/case_leibers.jpg);
+}
+.URband {
+    background-image: url(../img/cases/case_URband.jpg);
 }
 .single-product:hover {
     box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);

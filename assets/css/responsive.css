@@ -9,6 +9,9 @@
 	.scroll-indicator:hover {
 		opacity: .5;
 	}
+	.single-product {
+	    background-size: 100%;
+	}
 }
 
 /* Medium Layout: 1280px. */
