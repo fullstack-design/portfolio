@@ -22,38 +22,38 @@
 
 (function ($) {
     "use strict";
-	
+
 	jQuery(document).ready(function($){
-		
+
 		// 01. START PRELOADER
 		setTimeout(function(){
 			$('body').addClass('loaded');
 		}, 3000);
 		// 01. END PRELOADER
-		
+
 		// 02. START MENU STICKY JS
 		$(".header-top-area").sticky({
             topSpacing: 0,
         });
 		// 02. END MENU STICKY JS
-		
+
 		// 03. START SMOTH SCROOL JS
 		$('a.smoth-scroll').on("click", function (e) {
             var anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top - 88
-            }, 1200);
+            }, 500);
             e.preventDefault();
         });
 		// 03. END SMOTH SCROOL JS
-		
+
 		// 04. START SCROOLSPY JS
 		$('body').scrollspy({
             target: '.navbar-collapse',
             offset: 90
         });
 		// 04. END SCROOLSPY JS
-		
+
 		// 05. START TOGGLE DROPDOWN JS
 		$(document).on('click','.navbar-collapse.in',function(e) {
 		if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
@@ -129,9 +129,9 @@
 		});
 		// 11. END PARTNER CAROUSEL JS
 	});
-	
+
 	// 12. START WOW ANIMATION JS
 	new WOW().init();
 	// 12. END WOW ANIMATION JS
-	
+
 })(jQuery);
