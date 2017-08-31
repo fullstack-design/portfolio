@@ -41,7 +41,7 @@
 		$('a.smoth-scroll').on("click", function (e) {
             var anchor = $(this);
             $('html, body').stop().animate({
-                scrollTop: $(anchor.attr('href')).offset().top - 88
+                scrollTop: $(anchor.attr('href')).offset().top - 60
             }, 500);
             e.preventDefault();
         });
