@@ -52,6 +52,7 @@ h6 {
     font-weight: 700;
     text-transform: none;
     font-family: 'Roboto', sans-serif;
+    line-height: 150%;
 }
 a {
     text-decoration: none;
@@ -424,22 +425,22 @@ fieldset {
     margin: 0;
     border: none;
     box-sizing: border-box;
-    width: 44px;
-    height: 44px;
+    width: 50px;
+    height: 50px;
 }
 .is-sticky .header-top-area{
     background: #fff;
     box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
 }
 .is-sticky .mainmenu li a {
-    padding: 20px 15px;
+    padding: 15px;
     color: #666 !important;
 }
 .is-sticky .mainmenu ul.nav.navbar-nav li.active a { color: #333 !important }
 .is-sticky .navbar-brand {
     color: #333 !important;
     font-size: 26px;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 /*
 * -------------------------------------------------------------
@@ -690,32 +691,48 @@ toggle {  0% {
 *    09. START TEAM AREA CSS STYLE
 * -------------------------------------------------------------
 */
-.single-team{
+.single-team {
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
+    text-align: center;
 }
-.single-team:hover { box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08) }
+.single-team h4,
+.single-team p {
+    text-align: center;
+}
+.single-team img {
+    border-radius: 170px;
+    display: inline;
+    width: 150px;
+}
 .team-overlay {
-    background: #f6f6f6;
-    padding: 20px;
+    padding-top: 15px;
 }
-.team-title { float: left }
-.team-title p{
+.team-title {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.team-title p {
     margin: 0;
-    font-size: 12px;
+    font-size: 14px;
 }
 .team-social-link {
-    float: right;
-    margin-top: 10px;
+    margin: 0 auto;
+    width: 174px;
+}
+.team-social-link a {
+    margin: 0 7px;
+    float: left;
 }
 .team-social-link a i {
     border: 1px solid #555;
     display: inline-block;
     text-align: center;
-    line-height: 25px;
-    font-size: 12px;
-    height: 25px;
-    width: 25px;
+    line-height: 44px;
+    font-size: 20px;
+    height: 44px;
+    width: 44px;
     color: #555;
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
@@ -1192,4 +1209,19 @@ toggle {  0% {
   bottom: 15px;
   left: 50%;
   margin-left: -22px;
+}
+.experience-CV {
+  width: 100%;
+}
+.experience-CV td {
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 150%;
+}
+.experience-CV td:first-child {
+  padding-right: 15px;
+}
+.experience-CV .bordered {
+  border-top: 1px solid grey;
+  padding-bottom: 7px;
 }
