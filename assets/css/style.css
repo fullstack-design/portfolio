@@ -406,7 +406,11 @@ fieldset {
 .navbar-default .navbar-form { border-color: #fff }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { background-color: #fff }
-.navbar-default .navbar-toggle .icon-bar { background-color: #333 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+    width: 30px;
+    height: 3px;
+}
 .mainmenu li a {
     color: #fff !important;
     font-family: 'Roboto', sans-serif;
