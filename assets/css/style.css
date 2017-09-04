@@ -90,12 +90,16 @@ fieldset {
     margin: auto;
     width: 70%;
 }
+
+.section-subtitle {
+    margin-top: 30px;
+}
 .breadcrumb-main{
     background:url(../img/bg/breadcrumb-bg.jpg);
     background-position: center center;
     background-size: cover;
     position: relative;
-    height:  350px;
+    height:  550px;
     z-index:1;
 }
 .breadcrumb-main:after {
@@ -746,6 +750,9 @@ toggle {  0% {
     border: 1px solid #555;
     color: #fff;
 }
+.team-area h4 {
+  margin-bottom: 15px;
+}
 /*
 * -------------------------------------------------------------
 *    09. / END TEAM AREA CSS STYLE
@@ -1228,4 +1235,9 @@ toggle {  0% {
 .experience-CV .bordered {
   border-top: 1px solid grey;
   padding-bottom: 7px;
+}
+
+/* Article */
+.article-header h1 {
+  color: #FFF;
 }
