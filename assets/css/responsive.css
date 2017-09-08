@@ -14,12 +14,42 @@
 	}
 }
 
+/* Large Layout: >1280px. */
+@media only screen and (min-width: 1200px) {
+	html {
+		font-size: 17px;
+	}
+	#home-carousel .item h2 {
+		font-size: 3.529rem;
+	}
+	.mainmenu li  a {
+		font-size: 0.9412rem;
+	}
+}
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+	#home-carousel .item h2 {
+		font-size: 3.529rem;
+	}
+	.mainmenu li  a {
+		font-size: 0.8824rem;
+	}
+	header .container {
+		width: 100%;
+	}
+	html {
+		font-size: 16px;
+	}
 }
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	html {
+		font-size: 15px;
+	}
+	.mainmenu li a {
+		font-size: 0.875rem;
+	}
 	.header-top-cart ul li a { font-size: 10px }
 	.shop-cart i { font-size: 14px }
     .mainmenu li a { padding: 30px 10px }
@@ -53,6 +83,15 @@
 	#home-carousel .item p {
 		text-align: center;
 	}
+	.team-area h4 {
+    margin-top: 45px;
+	}
+	.mainmenu li  a {
+		font-size: 0.8824rem;
+	}
+	header .container {
+		width: 100%;
+	}
 }
 
 /* Mobile Layout: 320px. */
@@ -77,18 +116,15 @@
 	}
 	#home-carousel .item p {
 		font-size: 14px;
-		letter-spacing: 5px;
 	}
 	#home-carousel .item h2 {
 		font-size: 30px;
 	}
-	#home-carousel .item .button {
-		font-size: 10px;
+	.section-title h2 {
+		font-size: 2rem;
 	}
-	.section-title h2 { font-size: 26px }
 	.section-title p {
 		width: 100%;
-		font-size: 13px;
 	}
 	.video-area iframe {
 	    height: 195px;
@@ -108,7 +144,7 @@
 	.single-pricing { margin-bottom: 30px }
 	.single-blog { margin-bottom: 20px }
 	.single-product { margin-top: 15px }
-	.breadcrumb-main { height: 250px }
+	.breadcrumb-main { height: 400px; }
 	.breadcrumb-title { padding-top: 125px }
 	.breadcrumb-title h2 { font-size: 28px }
 	.single-project-img { margin-bottom: 40px }
@@ -122,7 +158,6 @@
 		box-sizing: border-box;
 		float: left;
 	}
-
 	.clients-area img {
 	  height: 60px;
 	}
@@ -138,6 +173,9 @@
 	}
 	.mainmenu ul li:last-child a {
     padding-right: 15px;
+	}
+	.team-area h4 {
+    margin-top: 45px;
 	}
 }
 
@@ -156,5 +194,8 @@
 	}
 	.mainmenu ul li:last-child a {
     padding-right: 15px;
+	}
+	.team-area h4 {
+    margin-top: 45px;
 	}
 }

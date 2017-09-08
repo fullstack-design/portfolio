@@ -30,17 +30,22 @@
 *    01. GENAREL CSS STYLE
 * -------------------------------------------------------------
 */
+html {
+  font-size: 14px;
+}
 body {
     width: 100%;
     height: 100%;
     color: #555;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 300;
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
 }
 html,
-body { height: 100% }
+body {
+  height: 100%;
+}
 h1,
 h2,
 h3,
@@ -53,6 +58,12 @@ h6 {
     text-transform: none;
     font-family: 'Roboto', sans-serif;
     line-height: 150%;
+}
+h4 {
+  font-size: 1.286rem;
+}
+h5 {
+  font-size: 1rem;
 }
 a {
     text-decoration: none;
@@ -73,6 +84,9 @@ p {
   line-height: 2;
   margin-bottom: 28px;
 }
+.single-project-area img {
+  margin-bottom: 28px;
+}
 ul,
 li {
     margin: 0;
@@ -83,10 +97,10 @@ fieldset {
     margin: 0 auto;
     padding: 0;
 }
-.section-padding { padding: 45px 0 }
+.section-padding { padding: 30px 0 }
 .section-title { margin-bottom: 45px }
 .section-title h2 {
-    font-size: 36px;
+    font-size: 2.571rem;
     position: relative;
 }
 .section-title p {
@@ -126,10 +140,10 @@ fieldset {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     display: inline-block;
-    padding: 12px 25px;
+    padding: 10px 15px;
     position:relative;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1rem;
     color: #333;
     background: transparent;
     border: 2px solid #333;
@@ -244,7 +258,7 @@ fieldset {
 .header-top-bar {
     background: #333 none repeat scroll 0 0;
     color: #fff;
-    font-size: 13px;
+    font-size: 0.9286rem;
     font-weight: 300;
     padding: 10px 0;
 }
@@ -264,7 +278,9 @@ fieldset {
     margin-left: 20px;
     margin-right: 5px;
 }
-.shop-cart i { font-size: 16px }
+.shop-cart i {
+  font-size: 1.143rem;
+}
 .shop-cart > span {
     top: 0;
     right: 0;
@@ -273,7 +289,7 @@ fieldset {
     border-radius: 50%;
     color: #333;
     display: inline-block;
-    font-size: 10px;
+    font-size: 0.7143rem;
     height: 18px;
     line-height: 16px;
     text-align: center;
@@ -321,13 +337,13 @@ fieldset {
 }
 #home-carousel .item p {
     color: #fff;
-    font-size: 18px;
+    font-size: 1.286rem;
     text-align: left;
 }
 #home-carousel .item h2 {
     width: auto;
     color: #fff;
-    font-size: 60px;
+    font-size: 4.286rem;
     font-weight: 300;
     margin: 0 auto;
     text-align: left;
@@ -403,7 +419,7 @@ fieldset {
 .navbar-brand {
     color: #fff !important;
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: 700;
     padding: 30px 0;
     -webkit-transition: 0.36s;
@@ -423,7 +439,7 @@ fieldset {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1rem;
     padding: 30px 15px;
     -webkit-transition: all 0.36s ease-in-out 0s;
     transition: all 0.36s ease-in-out 0s;
@@ -450,7 +466,7 @@ fieldset {
 .is-sticky .mainmenu ul.nav.navbar-nav li.active a { color: #000 !important }
 .is-sticky .navbar-brand {
     color: #333 !important;
-    font-size: 26px;
+    font-size: 1.857rem;
     padding: 15px 0;
 }
 /*
@@ -468,7 +484,7 @@ fieldset {
 .about-text p { margin-bottom: 15px }
 .about-text ul { margin-bottom: 25px }
 .about-text ul li {
-    font-size: 13px;
+    font-size: 0.9286rem;
     margin-bottom: 10px;
 }
 .about-text li i {
@@ -504,16 +520,16 @@ fieldset {
 
 .single-service:hover { box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08) }
 .single-service i {
-    font-size: 52px;
+    font-size: 3.714rem;
     color: #333;
 }
 .single-service h4 {
     margin: 20px 0 10px 0;
-    font-size: 20px;
+    font-size: 1.429rem;
 }
-.single-service p { font-size: 13px }
+.single-service p { font-size: 0.9286rem; }
 a.read-more i {
-    font-size: 14px;
+    font-size: 1rem;
     margin-right: 5px;
     color: #999;
     -webkit-transition: all 0.36s ease-in-out 0s;
@@ -523,12 +539,12 @@ a.read-more {
     color: #999;
     text-transform: uppercase;
     font-weight: 500;
-    width: 103px;
+    width: 7.357rem;
     height: 44px;
     display: block;
     box-sizing: border-box;
     margin: 15px auto 0;
-    font-size: 14px;
+    font-size: 1rem;
     padding: 13px 0;
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
@@ -565,7 +581,7 @@ a.read-more:hover { color:#333 }
 }
 .progressbar div span {
   position: absolute;
-  font-size: 25px;
+  font-size: 1.786rem;
   line-height: 175px;
   height: 175px;
   width: 175px;
@@ -638,14 +654,14 @@ toggle {  0% {
 .work-icon a {
     color: #666;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.286rem;
     margin: 5px;
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
 }
 .work-icon a:hover{ color: #333 !important }
 .portfolio-btn a i {
-    font-size: 14px;
+    font-size: 1rem;
     margin-right: 10px;
 }
 /*
@@ -682,14 +698,14 @@ toggle {  0% {
 }
 .counter h2 {
     margin: 10px 0 5px 0;
-    font-size: 34px;
+    font-size: 2.429rem;
     color: #fff;
 }
 .counter p {
     margin: 0;
 }
 .counter i {
-    font-size: 40px;
+    font-size: 2.857rem;
 }
 /*
 * -------------------------------------------------------------
@@ -725,7 +741,7 @@ toggle {  0% {
 }
 .team-title p {
     margin: 0;
-    font-size: 14px;
+    font-size: 1rem;
 }
 .team-social-link {
     margin: 0 auto;
@@ -740,7 +756,7 @@ toggle {  0% {
     display: inline-block;
     text-align: center;
     line-height: 44px;
-    font-size: 20px;
+    font-size: 1.429rem;
     height: 44px;
     width: 44px;
     color: #555;
@@ -754,6 +770,9 @@ toggle {  0% {
 }
 .team-area h4 {
   margin-bottom: 15px;
+}
+.team-title h4 {
+  margin-bottom: 0;
 }
 /*
 * -------------------------------------------------------------
@@ -781,8 +800,8 @@ toggle {  0% {
 .single-pricing h3 {
     border-bottom: 1px solid #ddd;
     display: inline-block;
-    font-family: "Ubuntu",sans-serif;
-    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    font-size: 1.143rem;
     font-weight: 300;
     margin-bottom: 10px;
     padding: 0 0 10px;
@@ -791,12 +810,12 @@ toggle {  0% {
 }
 .price h4 {
     color: #666;
-    font-size: 52px;
+    font-size: 3.714rem;
     -webkit-transition: all 0.36s ease 0s;
             transition: all 0.36s ease 0s;
 }
 .price span {
-    font-size: 14px;
+    font-size: 1rem;
     display: block;
     margin-top: 10px;
 }
@@ -889,17 +908,17 @@ toggle {  0% {
 .single-blog img { padding: 10px 10px 0 10px }
 .blog-content { padding: 25px }
 .blog-content span {
-    font-size: 12px;
+    font-size: 0.8571rem;
     color: #333;
 }
 .blog-content span i { color: #333 }
 .blog-content a h2 {
-    font-size: 20px;
+    font-size: 1.429rem;
     margin: 5px 0 15px;
 }
 .blog-btn { margin-top: 30px }
 .blog-btn a i {
-    font-size: 14px;
+    font-size: 1rem;
     margin-right: 10px;
 }
 /*
@@ -928,7 +947,7 @@ toggle {  0% {
 .shop-filter ul li {
     margin: 5px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 0.8571rem;
     padding: 10px 20px;
     display: inline-block;
     border: 2px solid #f6f6f6;
@@ -1019,7 +1038,7 @@ toggle {  0% {
 .product-info p { margin: 0 }
 .shop-btn { margin-top: 30px }
 .shop-btn a i {
-    font-size: 14px;
+    font-size: 1rem;
     margin-right: 10px;
 }
 /*
@@ -1079,7 +1098,7 @@ toggle {  0% {
 .success {
     text-align: center;
     margin: 80px 0;
-    font-size: 18px;
+    font-size: 1.286rem;
     font-weight: 700;
 }
 /*
@@ -1100,13 +1119,12 @@ toggle {  0% {
     text-align: center;
     margin-right: 10px;
     line-height: 40px;
-    font-size: 16px;
+    font-size: 1.143rem;
     height: 40px;
     color: #fff;
     float: left;
     width: 40px;
 }
-.single-contact-info p { font-size: 12px }
 .single-latest-post {
     margin-bottom: 10px;
     overflow: hidden;
@@ -1119,15 +1137,15 @@ toggle {  0% {
     width: 30%;
 }
 .single-latest-post a h2 {
-    font-size: 12px;
+    font-size: 0.8571rem;
     margin: 5px 0;
     -webkit-transition: all 0.36s ease 0s;
             transition: all 0.36s ease 0s;
 }
-.single-latest-post span { font-size: 12px }
+.single-latest-post span { font-size: 0.8571rem; }
 .single-latest-post span i {
     margin-right: 5px;
-    font-size: 14px;
+    font-size: 1rem;
     color: #333;
 }
 .single-latest-post:hover a h2{ color: #333 }
@@ -1173,11 +1191,11 @@ toggle {  0% {
 .details-single-project{ margin: 40px 0 20px }
 .details-single-project li {
     color: #555;
-    font-size: 14px;
+    font-size: 1rem;
     padding: 0 0 10px 0;
 }
-.details-single-project li a,
-.details-single-project li i {
+.details-single-project a,
+.details-single-project i {
     margin-right: 10px;
     color: #333;
 }
@@ -1222,15 +1240,14 @@ toggle {  0% {
 .experience-CV {
   width: 100%;
 }
-.experience-CV td {
+td {
   vertical-align: top;
-  font-size: 14px;
-  line-height: 150%;
 }
-.experience-CV td:first-child {
+.experience-CV td:first-child,
+.details-single-project td {
   padding-right: 15px;
 }
-.experience-CV .bordered {
+tr.bordered {
   border-top: 1px solid grey;
   padding-bottom: 7px;
 }
@@ -1240,8 +1257,14 @@ toggle {  0% {
   color: #FFF;
 }
 p.intro {
-  font-size: 18px;
+  font-size: 1.286rem;
 }
-.single-project-text h3 {
-    margin-top: 45px;
+.team-title h4 {
+    margin-top: 0;
+}
+.progress {
+  margin-bottom: 0;
+}
+.single-project-area .row img {
+  width: 100%;
 }
