@@ -32,7 +32,7 @@
 		font-size: 3.529rem;
 	}
 	.mainmenu li  a {
-		font-size: 0.8824rem;
+		font-size: 1rem;
 	}
 	header .container {
 		width: 100%;
@@ -87,7 +87,7 @@
     margin-top: 45px;
 	}
 	.mainmenu li  a {
-		font-size: 0.8824rem;
+		font-size: 1rem;
 	}
 	header .container {
 		width: 100%;
@@ -102,11 +102,13 @@
     min-height: 44px;
 	}
 	.navbar-brand {
-		padding: 13px 0;
+		padding: 8px 0;
 		color: #333 !important;
     height: 50px;
 	}
-	.is-sticky .navbar-brand { padding: 15px 0; }
+	.is-sticky .navbar-brand {
+		padding: 8px 0;
+	}
 	.mainmenu li a,
 	.is-sticky .mainmenu ul.nav.navbar-nav li  a {
 		color: #666 !important;
@@ -177,6 +179,10 @@
 	.team-area h4 {
     margin-top: 45px;
 	}
+	.navbar-brand .name,
+	.navbar-brand .claim {
+	    color: #000 !important;
+	}
 }
 
 /* Wide Mobile Layout: 480px. */
@@ -197,5 +203,9 @@
 	}
 	.team-area h4 {
     margin-top: 45px;
+	}
+	.navbar-brand .name,
+	.navbar-brand .claim {
+	    color: #000 !important;
 	}
 }

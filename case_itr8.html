@@ -14,8 +14,24 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<!-- SITE TITLE -->
 	    <title>Oliver Jahn: Agency Website MVP Case</title>
-	    <!-- FAVICON -->
-	    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico"/>
+      <!-- FAVICON -->
+      <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+      <link rel="manifest" href="assets/favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
 		<!-- All CSS --><!-- GOOGLE FONT CSS -->
 		 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
 		<!-- BOOTSTRAP CSS -->
@@ -74,7 +90,10 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="index.html">Multi.</a>
+							<a class="navbar-brand" href="index.html">
+                <span class="name">Oliver Jahn</span>
+                <span class="claim">Design for Startups</span>
+              </a>
 						</div>
 						<div class="navbar-collapse collapse">
 							<nav>
@@ -83,8 +102,8 @@
 									<li><a class="smoth-scroll" href="index.html#services">Services</a></li>
 									<li><a class="smoth-scroll" href="index.html#tools">Tools</a></li>
 									<li class="active"><a class="smoth-scroll" href="index.html#cases">Cases</a></li>
-									<li><a class="smoth-scroll" href="index.html#experience">Experience</a></li>
 									<li><a class="smoth-scroll" href="index.html#clients">Clients</a></li>
+									<li><a class="smoth-scroll" href="index.html#experience">Experience</a></li>
 									<li><a class="smoth-scroll" href="index.html#contact">Contact</a></li>
 								</ul>
 							</nav>
@@ -115,7 +134,16 @@
 			<div class="container">
 				<div class="row">
 					<!-- START SINGLE PROJECT TEXT DESIGN AREA -->
-					<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+          <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+						<div class="single-project-text">
+							<div class="about-single-project">
+								<h3>Client</h3>
+								<p>Lorem ipsum Non dolor fugiat Duis irure esse eiusmod aliquip laborum dolor ea cupidatat nostrud do elit esse occaecat Duis sit. Lorem ipsum Non dolor fugiat Duis irure esse eiusmod aliquip laborum dolor ea cupidatat nostrud do elit esse occaecat Duis sit.</p>
+  						</div>
+  					</div>
+          </div>
+
+          <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
 						<div class="single-project-text">
 							<div class="about-single-project">
 								<h3>Problem</h3>
@@ -140,7 +168,7 @@
 
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
             <div class="single-project-text">
-              <h3>Requirements</h3>
+              <h3>Frame Conditions</h3>
 							<p>Lorem ipsum Non dolor fugiat Duis irure esse eiusmod aliquip laborum dolor ea cupidatat nostrud do elit esse occaecat Duis sit.</p>
               <p>Lorem ipsum Non dolor fugiat Duis irure esse eiusmod aliquip laborum dolor ea cupidatat nostrud do elit esse occaecat Duis sit. Lorem ipsum Non dolor fugiat Duis irure esse eiusmod aliquip laborum dolor ea cupidatat nostrud do elit esse occaecat Duis sit.</p>
             </div>
@@ -241,70 +269,104 @@
 		</section>
 		<!-- / END SINGLE PROJECT DESIGN AREA -->
 
+    <!-- START CONTACT DESIGN AREA -->
+		<section id="contact" class="contact-area section-padding">
+			<div class="container">
+				<div class="row">
+					<!-- START SECTION TITLE DESIGN AREA -->
+					<div class="col-md-12">
+						<div class="section-title text-center">
+							<h2>Contact</h2>
+							<h4>Get in Touch</h4>
+						</div>
+					</div>
+					<!-- / END SECTION TITLE DESIGN AREA -->
+				</div>
+				<div class="row">
+					<!-- START CONTACT FORM DESIGN AREA -->
+					<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+						<form id="contact-form" method="post" action="contact.php">
+							<div class="row">
+								<div class="form-group col-md-12 col-sm-12">
+                  <h5>Your Name:</h5>
+                  <input type="text" placeholder="e.g. Virginia Potts" id="first-name" class="form-control" name="name" required="required">
+								</div>
+								<div class="form-group col-md-12 col-sm-12">
+                  <h5>Your Mail Address:</h5>
+                  <input type="email" placeholder="e.g. v.potts@stark.com" id="email" class="form-control" name="email" required="required">
+								</div>
+								<div class="form-group col-md-12 col-sm-12">
+                  <h5>Your Message:</h5>
+                  <textarea placeholder="e.g.&#10;Hi,&#10;I would like to know more about your services.&#10;Let's talk.&#10;Best,&#10;Pepper" id="description" class="form-control" name="message" rows="10" required="required"></textarea>
+								</div>
+								<div class="col-md-12  col-sm-12">
+									<div class="actions text-center">
+										<input type="submit" title="Submit Your Message!" class="button" id="submitButton" name="submit" value="Send message">
+										<img src="assets/img/ajax-loader.gif" width="16" height="16" id="loader" style="display:none" alt="loading">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<!-- / END CONTACT FORM DESIGN AREA -->
+				</div>
+			</div>
+		</section>
+		<!-- / END CONTACT DESIGN AREA -->
+
 		<!-- START FOOTER TOP DESIGN AREA -->
 		<section class="footer-top-area section-padding">
 			<div class="container">
 				<div class="row">
+          <!-- Go to www.addthis.com/dashboard to customize your tools -->
+          <div class="addthis_inline_share_toolbox"></div>
+
+
 					<!-- START SINGLE FOOTER WIDGET DESIGN AREA -->
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-4 col-sm-4">
 						<div class="footer-widget">
 							<h4>Multi.</h4>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipscing elit, sed diam nonummyes nibh esmod ticidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+							<p>Oliver is a senior product designer from Berlin who loves to help startups create engaging and usable MVPs that generate insightful learnings.</p>
 						</div>
 					</div>
 					<!-- / END SINGLE FOOTER WIDGET DESIGN AREA -->
 					<!-- START SINGLE FOOTER WIDGET DESIGN AREA -->
-					<div class="col-md-3 col-sm-6">
-						<div class="footer-widget">
-							<h4>OUR SERVICES</h4>
-							<ul class="list-unstyled">
-								<li><a href="#"><i class="fa fa-angle-double-right"></i>Web Development</a></li>
-								<li><a href="#"><i class="fa fa-angle-double-right"></i>App Development</a></li>
-								<li><a href="#"><i class="fa fa-angle-double-right"></i>Market Research</a></li>
-								<li><a href="#"><i class="fa fa-angle-double-right"></i>Design Thinking</a></li>
-								<li><a href="#"><i class="fa fa-angle-double-right"></i>Branding</a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- / END SINGLE FOOTER WIDGET DESIGN AREA -->
-					<!-- START SINGLE FOOTER WIDGET DESIGN AREA -->
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-4 col-sm-4">
 						<div class="footer-widget">
 							<h4>Quick Links</h4>
 							<ul class="list-unstyled">
-								<li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
-								<li><a href="#"><i class="fa fa-angle-double-right"></i>About Us</a></li>
-								<li><a href="#"><i class="fa fa-angle-double-right"></i>Service</a></li>
-								<li><a href="#"><i class="fa fa-angle-double-right"></i>Portfolio</a></li>
-								<li><a href="#"><i class="fa fa-angle-double-right"></i>Blog</a></li>
+								<li><a class="smoth-scroll" href="#mission"><i class="fa fa-angle-double-right"></i>Mission</a></li>
+								<li><a class="smoth-scroll" href="#services"><i class="fa fa-angle-double-right"></i>Services</a></li>
+								<li><a class="smoth-scroll" href="#tools"><i class="fa fa-angle-double-right"></i>Tools</a></li>
+								<li><a class="smoth-scroll" href="#cases"><i class="fa fa-angle-double-right"></i>Cases</a></li>
+								<li><a class="smoth-scroll" href="#experience"><i class="fa fa-angle-double-right"></i>Experience</a></li>
+								<li><a class="smoth-scroll" href="#clients"><i class="fa fa-angle-double-right"></i>Clients</a></li>
+								<li><a class="smoth-scroll" href="#contact"><i class="fa fa-angle-double-right"></i>Contact</a></li>
 							</ul>
 						</div>
 					</div>
 					<!-- / END SINGLE FOOTER WIDGET DESIGN AREA -->
 					<!-- START SINGLE FOOTER WIDGET DESIGN AREA -->
-					<div class="col-md-3 col-sm-6">
+					<div class="col-md-4 col-sm-4">
 						<div class="footer-widget">
 							<h4>Contact Info</h4>
 							<!-- START CONTACT INFO DESIGN AREA -->
-							<div class="single-contact-info">
-								<i class="icon-map-pin"></i>
-								<h5>address</h5>
-								<p>730 SM, Dhaka, Bangladesh</p>
-							</div>
+							<a class="single-contact-info" href="mailto:me@domainname.com">
+								<i class="fa fa-envelope"></i>
+								<span>me@domainname.com</span>
+							</a>
 							<!-- / END CONTACT INFO DESIGN AREA -->
 							<!-- START CONTACT INFO DESIGN AREA -->
-							<div class="single-contact-info">
-								<i class="icon-phone"></i>
-								<h5>phone</h5>
-								<p>+88 016 7618 0242</p>
-							</div>
+							<a class="single-contact-info" href="http://www.linkedin.com/pub/oliver-jahn/83/591/61b" target="_blank">
+								<i class="fa fa-linkedin"></i>
+								<span>Oliver on LinkedIn</span>
+							</a>
 							<!-- / END CONTACT INFO DESIGN AREA -->
 							<!-- START CONTACT INFO DESIGN AREA -->
-							<div class="single-contact-info">
-								<i class="icon-envelope"></i>
-								<h5>email</h5>
-								<p>me@domainname.com</p>
-							</div>
+							<a class="single-contact-info" href="http://www.xing.com/profile/Oliver_Jahn14" target="_blank">
+								<i class="fa fa-xing"></i>
+								<span>Oliver on Xing</span>
+							</a>
 							<!-- / END CONTACT INFO DESIGN AREA -->
 						</div>
 					</div>
