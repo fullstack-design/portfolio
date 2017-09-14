@@ -19,17 +19,17 @@
 	html {
 		font-size: 17px;
 	}
-	#home-carousel .item h2 {
-		font-size: 3.529rem;
-	}
 	.mainmenu li  a {
 		font-size: 0.9412rem;
+	}
+	#home-carousel .item h1 {
+    text-align: left;
 	}
 }
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	#home-carousel .item h2 {
-		font-size: 3.529rem;
+	#home-carousel .item h1 {
+    text-align: left;
 	}
 	.mainmenu li  a {
 		font-size: 1rem;

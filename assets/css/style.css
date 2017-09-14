@@ -362,7 +362,7 @@ fieldset {
     width: auto;
     color: #fff;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
 }
 #home-carousel .item h2 span { font-weight: 900; }
 #home-carousel .item .button { color: #fff; float: left;}
@@ -396,6 +396,7 @@ fieldset {
 .home-btn-bg {
     background: #333;
     margin-right: 10px;
+    color: #FFF;
 }
 /*
 * -------------------------------------------------------------
@@ -1342,5 +1343,9 @@ hr {
   margin: 2rem auto;
   border-top: 2px solid #999;
   width: 100%;
-
+}
+footer a {
+  color: #FFF;
+  line-height: 44px;
+  text-decoration: underline;
 }
