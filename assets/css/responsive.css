@@ -47,6 +47,9 @@
 	html {
 		font-size: 15px;
 	}
+	h1 {
+		font-size: 3.067rem;
+	}
 	.mainmenu li a {
 		font-size: 0.875rem;
 	}
@@ -54,7 +57,7 @@
 	.shop-cart i { font-size: 14px }
     .mainmenu li a { padding: 30px 10px }
 	.is-sticky .mainmenu li a { padding: 20px 10px }
-	#home-carousel .item h2 { font-size: 46px }
+
 	.section-title p { width: 80% }
 	.video-area iframe {
 	    height: 410px;
@@ -96,6 +99,9 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+	h1 {
+		font-size: 2.143rem;
+	}
 	.header-top-area { background: #fff none repeat scroll 0 0 }
 	.navbar-default {
     padding: auto;
@@ -118,9 +124,6 @@
 	}
 	#home-carousel .item p {
 		font-size: 14px;
-	}
-	#home-carousel .item h2 {
-		font-size: 30px;
 	}
 	.section-title h2 {
 		font-size: 2rem;

@@ -54,16 +54,39 @@ h5,
 h6 {
     margin: 0;
     color: #333;
-    font-weight: 700;
     text-transform: none;
     font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 150%;
+    font-weight: 700;
+}
+h2 {
+    font-weight: 700;
     line-height: 150%;
 }
+h3 {
+    font-weight: 700;
+    font-size: 1.412rem;
+}
 h4 {
-  font-size: 1.286rem;
+    font-size: 1.286rem;
+    line-height: 150%;
+    font-weight: 700;
 }
 h5 {
-  font-size: 1rem;
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: 700;
+}
+h6 {
+    line-height: 150%;
+    font-weight: 700;
+}
+p {
+  line-height: 2;
+  margin-bottom: 28px;
 }
 a {
     text-decoration: none;
@@ -79,10 +102,6 @@ a:focus {
     outline: none;
     text-decoration: none;
     color: #fff;
-}
-p {
-  line-height: 2;
-  margin-bottom: 28px;
 }
 .single-project-area img {
   margin-bottom: 28px;
@@ -131,7 +150,6 @@ fieldset {
 }
 .breadcrumb-title{ padding-top: 200px }
 .breadcrumb-title h2{
-    font-weight: 700;
     color: #fff;
 }
 .breadcrumb-title p,
@@ -340,11 +358,9 @@ fieldset {
     font-size: 1.286rem;
     text-align: left;
 }
-#home-carousel .item h2 {
+#home-carousel .item h1 {
     width: auto;
     color: #fff;
-    font-size: 4.286rem;
-    font-weight: 300;
     margin: 0 auto;
     text-align: left;
 }
@@ -633,6 +649,7 @@ toggle {  0% {
 */
 .single-tool {
   margin-bottom: 30px;
+  text-align: center;
 }
 /*
 * -------------------------------------------------------------
@@ -1297,4 +1314,33 @@ p.intro {
 }
 .contact-area {
   background-color: #F6F6F6;
+}
+.single-project-area .single-tool img {
+  width: 44px;
+  margin-bottom: 0;
+}
+.single-project-area h3 {
+  margin: 1rem 0;
+}
+.single-project-area table {
+  margin-bottom: 2rem;
+}
+.single-tool h5 {
+  margin-top: 15px;
+}
+.contact-box {
+  padding: 15px;
+  margin: 2rem 0;
+  box-sizing: border-box;
+  background-color: #DDD;
+  text-align: center;
+}
+.contact-box h3 {
+  margin: 0 0 15px;
+}
+hr {
+  margin: 2rem auto;
+  border-top: 2px solid #999;
+  width: 100%;
+
 }

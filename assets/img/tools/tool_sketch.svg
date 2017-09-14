@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>tool_sketch</title>
+    <title>Artboard</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="tool_sketch">
-            <g id="Page-1">
-                <g id="Sketch">
-                    <g id="sketch">
-                        <path d="M30.8484312,18.8725709 L37.125,18.8725709 L33.9407895,14.463664 L30.5728745,9.99352227 L22,9.075 L30.6906775,18.5342408 L30.6906775,18.5342408 L22,9.075 L13.3093225,18.5342408 L13.3093225,18.5342408 L22,9.075 L13.4271255,9.99352227 L10.0592105,14.463664 L6.875,18.8725709 L13.1515688,18.8725709 L30.8484312,18.8725709 Z M5,0 L39,0 C41.7614237,-5.07265313e-16 44,2.23857625 44,5 L44,39 C44,41.7614237 41.7614237,44 39,44 L5,44 C2.23857625,44 3.38176876e-16,41.7614237 0,39 L0,5 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 L5,0 Z M22,36.4469636 L37.125,18.8725709 L6.875,18.8725709 L22,36.4469636 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
-                        <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.875000, 9.075000)" stroke="#FFFFFF">
-                            <polygon id="Polygon" transform="translate(15.125000, 18.584767) rotate(-180.000000) translate(-15.125000, -18.584767) " points="15.125 9.7975704 30.25 27.3719631 1.77635684e-15 27.3719631"></polygon>
-                            <polygon id="Polygon" transform="translate(15.125000, 18.584767) rotate(-180.000000) translate(-15.125000, -18.584767) " points="15.125 9.7975704 24.1265182 27.3719631 6.1234818 27.3719631"></polygon>
-                            <polygon id="Polygon" transform="translate(15.125000, 18.584767) rotate(-180.000000) translate(-15.125000, -18.584767) " points="15.125 9.7975704 23.8203441 27.3719631 6.4296559 27.3719631"></polygon>
-                            <polygon id="Polygon" transform="translate(10.624241, 4.898785) rotate(-180.000000) translate(-10.624241, -4.898785) " points="14.6963565 8.87904773 15.1250002 -8.5e-07 6.123482 9.79757"></polygon>
-                            <polygon id="Polygon" transform="translate(19.625759, 4.898785) scale(-1, 1) rotate(-180.000000) translate(-19.625759, -4.898785) " points="23.6978745 8.87904773 24.1265182 -8.49999998e-07 15.125 9.79757"></polygon>
-                            <polygon id="Polygon" transform="translate(15.125000, 4.898785) rotate(-180.000000) translate(-15.125000, -4.898785) " points="15.125 9.79757 24.1265182 -8.4999983e-07 6.1234818 -8.49999999e-07"></polygon>
-                            <polygon id="Polygon" transform="translate(15.125000, 4.776316) rotate(-180.000000) translate(-15.125000, -4.776316) " points="15.125 9.552632 23.6366397 4.20000232e-07 6.6133603 4.19999999e-07"></polygon>
-                            <polygon id="Polygon" transform="translate(3.276063, 5.358047) rotate(-180.000000) translate(-3.276063, -5.358047) " points="4.9e-07 9.79757173 3.36791547 5.32743003 6.552126 0.91852315 0.122470126 0.91852315"></polygon>
-                            <polygon id="Polygon" transform="translate(3.276063, 5.358047) rotate(-180.000000) translate(-3.276063, -5.358047) " points="4.9e-07 9.79757173 6.552126 0.91852315 0.428644215 1.16346242"></polygon>
-                            <polygon id="Polygon" transform="translate(26.973937, 5.358047) scale(-1, 1) rotate(-180.000000) translate(-26.973937, -5.358047) " points="23.6978745 9.79757173 27.0657895 5.32743003 30.25 0.91852315 23.8203441 0.91852315"></polygon>
-                            <polygon id="Polygon" transform="translate(26.973937, 5.358047) scale(-1, 1) rotate(-180.000000) translate(-26.973937, -5.358047) " points="23.6978745 9.79757173 30.25 0.91852315 24.1265182 1.16346242"></polygon>
-                        </g>
-                    </g>
+        <g id="Artboard">
+            <g id="tool_sketch">
+                <path d="M30.8484312,18.8725709 L37.125,18.8725709 L33.9407895,14.463664 L30.5728745,9.99352227 L22,9.075 L30.6906775,18.5342408 L30.6906775,18.5342408 L22,9.075 L13.3093225,18.5342408 L13.3093225,18.5342408 L22,9.075 L13.4271255,9.99352227 L10.0592105,14.463664 L6.875,18.8725709 L13.1515688,18.8725709 L30.8484312,18.8725709 Z M5,0 L39,0 C41.7614237,-5.07265313e-16 44,2.23857625 44,5 L44,39 C44,41.7614237 41.7614237,44 39,44 L5,44 C2.23857625,44 3.38176876e-16,41.7614237 0,39 L0,5 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 L5,0 Z M22,36.4469636 L37.125,18.8725709 L6.875,18.8725709 L22,36.4469636 Z" id="Combined-Shape" fill="#666666" fill-rule="nonzero"></path>
+                <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.875000, 9.075000)" stroke="#666666">
+                    <polygon id="Polygon" transform="translate(15.125000, 18.584767) rotate(-180.000000) translate(-15.125000, -18.584767) " points="15.125 9.7975709 30.25 27.3719636 3.55271368e-15 27.3719636"></polygon>
+                    <polygon id="Polygon" transform="translate(15.125000, 18.584767) rotate(-180.000000) translate(-15.125000, -18.584767) " points="15.125 9.7975709 24.1265182 27.3719636 6.1234818 27.3719636"></polygon>
+                    <polygon id="Polygon" transform="translate(15.125000, 18.584767) rotate(-180.000000) translate(-15.125000, -18.584767) " points="15.125 9.7975709 23.8203441 27.3719636 6.4296559 27.3719636"></polygon>
+                    <polygon id="Polygon" transform="translate(10.624241, 4.898785) rotate(-180.000000) translate(-10.624241, -4.898785) " points="14.6963563 8.87904858 15.125 0 6.1234818 9.79757085"></polygon>
+                    <polygon id="Polygon" transform="translate(19.625759, 4.898785) scale(-1, 1) rotate(-180.000000) translate(-19.625759, -4.898785) " points="23.6978745 8.87904858 24.1265182 1.77635684e-15 15.125 9.79757085"></polygon>
+                    <polygon id="Polygon" transform="translate(15.125000, 4.898785) rotate(-180.000000) translate(-15.125000, -4.898785) " points="15.125 9.79757085 24.1265182 1.69e-13 6.1234818 0"></polygon>
+                    <polygon id="Polygon" transform="translate(15.125000, 4.776316) rotate(-180.000000) translate(-15.125000, -4.776316) " points="15.125 9.55263158 23.6366397 2.33e-13 6.6133603 0"></polygon>
+                    <polygon id="Polygon" transform="translate(3.276063, 5.358047) rotate(-180.000000) translate(-3.276063, -5.358047) " points="-8.8817842e-16 9.79757085 3.36791498 5.32742915 6.55212551 0.91852227 0.122469636 0.91852227"></polygon>
+                    <polygon id="Polygon" transform="translate(3.276063, 5.358047) rotate(-180.000000) translate(-3.276063, -5.358047) " points="-8.8817842e-16 9.79757085 6.55212551 0.91852227 0.428643725 1.16346154"></polygon>
+                    <polygon id="Polygon" transform="translate(26.973937, 5.358047) scale(-1, 1) rotate(-180.000000) translate(-26.973937, -5.358047) " points="23.6978745 9.79757085 27.0657895 5.32742915 30.25 0.91852227 23.8203441 0.91852227"></polygon>
+                    <polygon id="Polygon" transform="translate(26.973937, 5.358047) scale(-1, 1) rotate(-180.000000) translate(-26.973937, -5.358047) " points="23.6978745 9.79757085 30.25 0.91852227 24.1265182 1.16346154"></polygon>
                 </g>
             </g>
         </g>
