@@ -95,6 +95,9 @@
 	header .container {
 		width: 100%;
 	}
+	.is-sticky .navbar-brand {
+    padding: 12px 0;
+	}
 }
 
 /* Mobile Layout: 320px. */

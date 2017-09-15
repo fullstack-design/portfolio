@@ -103,7 +103,8 @@ a:focus {
     text-decoration: none;
     color: #fff;
 }
-.single-project-area img {
+.single-project-area img,
+.single-service-area img {
   margin-bottom: 28px;
 }
 ul,
@@ -116,7 +117,9 @@ fieldset {
     margin: 0 auto;
     padding: 0;
 }
-.section-padding { padding: 30px 0 }
+.section-padding h2 {
+    margin-top: 30px;
+}
 .section-title { margin-bottom: 45px }
 .section-title h2 {
     font-size: 2.571rem;
@@ -572,17 +575,22 @@ a.read-more {
     color: #999;
     text-transform: uppercase;
     font-weight: 500;
-    width: 7.357rem;
     height: 44px;
     display: block;
     box-sizing: border-box;
-    margin: 15px auto 0;
     font-size: 1rem;
     padding: 13px 0;
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
 }
-
+.single-service a.read-more {
+    width: 7.357rem;
+    margin: 15px auto 0;
+}
+.single-service-area a.read-more,
+.single-project-area a.read-more {
+    margin-bottom: 2rem;
+}
 a.read-more:hover i,
 a.read-more:hover { color:#333 }
 /*
@@ -1305,7 +1313,8 @@ p.intro {
 .progress {
   margin-bottom: 0;
 }
-.single-project-area .row img {
+.single-project-area img,
+.single-service-area img {
   width: 100%;
 }
 .single-contact-info span {
@@ -1316,14 +1325,17 @@ p.intro {
 .contact-area {
   background-color: #F6F6F6;
 }
-.single-project-area .single-tool img {
+.single-project-area .single-tool img,
+.single-service-area .single-tool img {
   width: 44px;
   margin-bottom: 0;
 }
-.single-project-area h3 {
+.single-project-area h3,
+.single-service-area h3 {
   margin: 1rem 0;
 }
-.single-project-area table {
+.single-project-area table,
+.single-service-area table {
   margin-bottom: 2rem;
 }
 .single-tool h5 {
