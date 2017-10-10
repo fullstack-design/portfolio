@@ -117,8 +117,12 @@ fieldset {
     margin: 0 auto;
     padding: 0;
 }
-.section-padding h2 {
+.section-padding h2,
+.section-padding h4:first-child {
     margin-top: 30px;
+}
+.section-padding .container>div:last-child {
+    margin-bottom: 50px;
 }
 .section-title { margin-bottom: 45px }
 .section-title h2 {
@@ -1068,7 +1072,9 @@ toggle {  0% {
 .product-overlay > a.button { margin-top: 43% }
 .product-info {
     height: 200px;
+    height: 250px;
     padding: 72px 15px 0;
+    padding: 90px 15px 0;
     background-color: rgba(0,0,0,.5);
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
@@ -1329,6 +1335,12 @@ p.intro {
 .single-service-area .single-tool img {
   width: 44px;
   margin-bottom: 0;
+}
+.img-container {
+  text-align: center;
+}
+.img-container img {
+  max-width: 460px;
 }
 .single-project-area h3,
 .single-service-area h3 {
