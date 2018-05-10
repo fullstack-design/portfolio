@@ -84,9 +84,14 @@ h6 {
     line-height: 150%;
     font-weight: 700;
 }
-p {
+p, ul {
   line-height: 2;
   margin-bottom: 28px;
+}
+ul {
+  list-style-position: outside;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 a {
     text-decoration: none;
@@ -109,7 +114,6 @@ a:focus {
 }
 ul,
 li {
-    margin: 0;
     padding: 0;
 }
 fieldset {
@@ -558,7 +562,7 @@ fieldset {
             transition: all 0.36s ease-in-out 0s;
 }
 
-.single-service:hover { box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08) }
+.single-service:hover { box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1) }
 .single-service i {
     font-size: 3.714rem;
     color: #333;
@@ -677,7 +681,7 @@ toggle {  0% {
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
 }
-.single-work:hover { box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08) }
+.single-work:hover { box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1) }
 .work-overlay {
     background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
     position: absolute;
@@ -837,7 +841,7 @@ toggle {  0% {
     -webkit-transition: all 0.36s ease 0s;
             transition: all 0.36s ease 0s;
 }
-.single-pricing:hover { box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08) }
+.single-pricing:hover { box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1) }
 .price {
     padding: 25px;
     -webkit-transition: all 0.6s ease 0s;
@@ -879,7 +883,7 @@ toggle {  0% {
 }
 .pricing-btn { padding: 25px 0 }
 .single-pricing.recommended {
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
 }
@@ -950,7 +954,7 @@ toggle {  0% {
     -webkit-transition: all 0.36s ease 0s;
             transition: all 0.36s ease 0s;
 }
-.single-blog:hover { box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08) }
+.single-blog:hover { box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1) }
 .single-blog img { padding: 10px 10px 0 10px }
 .blog-content { padding: 25px }
 .blog-content span {
@@ -1052,7 +1056,7 @@ toggle {  0% {
     background-image: url(../img/cases/case_URband.jpg);
 }
 .single-product:hover {
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
 }
 .product-img { position: relative }
 .product-overlay {
@@ -1338,9 +1342,10 @@ p.intro {
 }
 .img-container {
   text-align: center;
+  margin: 28px auto;
 }
 .img-container img {
-  max-width: 460px;
+  margin-bottom: 0;
 }
 .single-project-area h3,
 .single-service-area h3 {
