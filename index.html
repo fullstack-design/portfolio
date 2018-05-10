@@ -59,23 +59,6 @@
 		<![endif]-->
 	</head>
 	<body>
-		<!-- START PRELOADER -->
-    	<div id="loader-wrapper">
-			<div class="loader">
-				<div class="spinner spinner-cube-grid">
-					<div class="cube"></div>
-					<div class="cube"></div>
-					<div class="cube"></div>
-					<div class="cube"></div>
-					<div class="cube"></div>
-					<div class="cube"></div>
-					<div class="cube"></div>
-					<div class="cube"></div>
-					<div class="cube"></div>
-				</div>
-			</div>
-		</div>
-		<!-- / END PRELOADER -->
 
 		<!-- START HEADER DESIGN AREA -->
 		<header id="home" class="header-area">
@@ -99,12 +82,14 @@
 						<div class="navbar-collapse collapse">
 							<nav>
 								<ul class="nav navbar-nav navbar-right">
-									<li class="active"><a class="smoth-scroll" href="#mission">Mission</a></li>
+									<li class="active"><a class="smoth-scroll" href="#start">Start</a></li>
 									<li><a class="smoth-scroll" href="#services">Services</a></li>
-									<li><a class="smoth-scroll" href="#tools">Tools</a></li>
+									<li><a class="smoth-scroll" href="#mission">Mission</a></li>
 									<li><a class="smoth-scroll" href="#cases">Cases</a></li>
 									<li><a class="smoth-scroll" href="#clients">Clients</a></li>
+									<li><a class="smoth-scroll" href="#testimonials">Testimonials</a></li>
 									<li><a class="smoth-scroll" href="#experience">Experience</a></li>
+									<li><a class="smoth-scroll" href="#tools">Tools</a></li>
 									<li><a class="smoth-scroll" href="#contact">Contact</a></li>
 								</ul>
 							</nav>
@@ -116,7 +101,7 @@
 			<!-- / END HEADER TOP DESIGN AREA -->
 
 			<!-- START HEADER SLIDE DESIGN AREA -->
-			<div class="home-slide-area text-center" id="mission">
+			<div class="home-slide-area text-center" id="start">
 				<div id="home-carousel" class="carousel slide carousel-fade" data-interval="5000" data-ride="carousel">
 					<div class="carousel-inner" role="listbox">
 						<!-- START SINGLE SLIDE ITEM DESIGN AREA -->
@@ -126,12 +111,11 @@
 									<div class="home-display-table-cell">
 										<div class="container">
 											<div class="row">
-												<div class="col-md-6 col-md-offset-6">
+												<div class="col-md-6 col-md-offset-3">
 													<h1>Lean Processes.<br />Validated Designs.<br />Valuable Outcomes.</h1>
   												<p>Oliver supports you on creating engaging and usable MVPs that spend every coin on learning about your customers and discovering your product.</p>
-													<a class="button home-btn-bg smoth-scroll" href="#contact">Get in Touch</a>
-													<a class="button smoth-scroll" href="#services">Learn More</a>
 												</div>
+  											<a class="button home-btn-bg smoth-scroll col-md-4 col-md-offset-4" href="#contact">Get in Touch</a>
 											</div>
 										</div>
 									</div>
@@ -141,7 +125,7 @@
 						<!-- / END SINGLE SLIDE ITEM DESIGN AREA -->
 					</div>
 
-          <a href="#services" class="smoth-scroll scroll-indicator"></a>
+          <a href="#services" class="smoth-scroll scroll-indicator">Scroll down to learn more</a>
 				</div>
 			</div>
 			<!-- / END HEADER SLIDE DESIGN AREA -->
@@ -155,8 +139,16 @@
 					<!-- START SECTION TITLE DESIGN AREA -->
 					<div class="col-md-12">
 						<div class="section-title">
-							<h2>Our Service</h2>
-							<h4>All-in-one Product Design for MVPs</h4>
+							<h2>Services</h2>
+							<h4>All-in-one Product Design for Startups</h4>
+
+              <p>The world is changing – and we are on the transition team.</p>
+
+              <p>This is a phrase from a sticker at my community space. I think it sums up quite well what design has to do nowadays: to make the world a better place for everyone.</p>
+
+              <p>This is the reason why I strive for the generation of customer value on every project I work on. Every product that follows a true purpose can combine a financially successful business model with a social or cultural impact.</p>
+
+              <p>To get there, I strongly believe that every important design decision should be based on research and validation. Times are gone when rockstar designers only followed their intuition. Sustainable innovations come from teams who listen and learn about their customers.</p>
 						</div>
 					</div>
 					<!-- / END SECTION TITLE DESIGN AREA -->
@@ -167,7 +159,7 @@
 						<div class="single-service">
 							<i class=" icon-lightbulb"></i>
 
-							<h4>Business Design</h4>
+							<h4>Service Design</h4>
 
               <ul class="service-list">
   							<li>Design Thinking</li>
@@ -179,7 +171,7 @@
                 <li>Minimum Viable Products</li>
               </ul>
 
-							<a href="service_business-design.html" class="read-more"><i class="fa fa-arrow-right"></i>read more</a>
+							<a href="service_service-design.html" class="read-more"><i class="fa fa-arrow-right"></i>read more</a>
 						</div>
 					</div>
 					<!-- / END SINGLE SERVICE DESIGN AREA -->
@@ -191,12 +183,12 @@
 							<h4>Interaction Design</h4>
 
               <ul class="service-list">
-  							<li>Lean UX & Design Studio</li>
+  							<li>Lean UX</li>
                 <li>Hypotheses</li>
                 <li>Information Architecture</li>
-                <li>Flow Charts</li>
+                <li>User Flows</li>
                 <li>Customer Journeys</li>
-                <li>Paper & Lo-Fi Prototypes</li>
+                <li>Paper & Mid-Fi Prototypes</li>
                 <li>Testing & Iteration</li>
               </ul>
 
@@ -218,6 +210,7 @@
                 <li>Visual Mockups</li>
                 <li>Hi-Fi Prototypes</li>
                 <li>Testing & Iteration</li>
+                <li>Front End Coorperation</li>
               </ul>
 
 							<a href="#" class="read-more"><i class="fa fa-arrow-right"></i>read more</a>
@@ -233,85 +226,26 @@
 		</section>
 		<!-- / END SERVICES AREA -->
 
-		<!-- START TOOLS AREA -->
-		<section id="tools" class="skills-area section-padding text-center" style="background-color: #CCC;">
+    <!-- START MISSION AREA -->
+		<section id="mission" class="mission-area section-padding text-center" style="background-color: #999;">
 			<div class="container">
 				<div class="row">
 					<!-- START SECTION TITLE DESIGN AREA -->
 					<div class="col-md-12">
 						<div class="section-title text-center">
-							<h2>Tools</h2>
-							<h4>A very awesome tagline</h4>
-						</div>
+							<h2>Mission</h2>
+							<h4>Purpose and Goal of my Work</h4>
+
+            </div>
 					</div>
 					<!-- / END SECTION TITLE DESIGN AREA -->
 				</div>
-
-        <div class="row">
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_pen-paper.svg" />
-
-            <h5>Pen & Paper</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_sketch.svg" />
-
-            <h5>Sketch</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_craft.svg" />
-
-            <h5>Craft</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_invision.svg" />
-
-            <h5>Invision</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_html.svg" />
-
-            <h5>HTML</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_css.svg" />
-
-            <h5>CSS</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_axure.svg" />
-
-            <h5>Axure RP</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_photoshop.svg" />
-
-            <h5>Photoshop</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_illustrator.svg" />
-
-            <h5>Illustrator</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_indesign.svg" />
-
-            <h5>InDesign</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
-            <img src="assets/img/tools/tool_atom.svg" />
-
-            <h5>Atom.io</h5>
-          </div>
-          <div class="col-sm-4 col-md-3 col-lg-2 single-tool">
-            <img src="assets/img/tools/tool_github.svg" />
-
-            <h5>GitHub</h5>
-          </div>
-        </div>
+				<div class="shop-btn text-center">
+					<a href="assets/doc/jahn-oliver_CV-portfolio_EN.pdf" target="_blank" class="button">Download The PDF</a>
+				</div>
 			</div>
 		</section>
-		<!-- / END TOOLS DESIGN AREA -->
+		<!-- / END MISSION AREA -->
 
     <!-- START CASE DESIGN AREA -->
 		<section id="cases" class="products section-padding">
@@ -331,7 +265,7 @@
 					<div class="shop-filter">
 						<ul class="list-unstyled">
 							<li class="filter active" data-filter="all">All</li>
-							<li class="filter" data-filter="businessdesign">Business Design</li>
+							<li class="filter" data-filter="businessdesign">Service Design</li>
 							<li class="filter" data-filter="interactiondesign">Interaction Design</li>
 							<li class="filter" data-filter="visualdesign">Visual Design</li>
 							<li class="filter" data-filter="research">Research</li>
@@ -506,15 +440,36 @@
 		</section>
 		<!-- / END CLIENTS DESIGN AREA -->
 
+    <!-- START TESTIMONIALS AREA -->
+		<section id="testimonials" class="testimonials-area section-padding text-center" style="background-color: #AAA;">
+			<div class="container">
+				<div class="row">
+					<!-- START SECTION TITLE DESIGN AREA -->
+					<div class="col-md-12">
+						<div class="section-title text-center">
+							<h2>Testimonials</h2>
+							<h4>What Former Clients Say</h4>
+
+            </div>
+					</div>
+					<!-- / END SECTION TITLE DESIGN AREA -->
+				</div>
+				<div class="shop-btn text-center">
+					<a href="assets/doc/jahn-oliver_CV-portfolio_EN.pdf" target="_blank" class="button">Download The PDF</a>
+				</div>
+			</div>
+		</section>
+		<!-- / END TESTIMONIALS AREA -->
+
 		<!-- START TEAM DESIGN AREA -->
-		<section id="experience" class="team-area section-padding" style="background-color: lightgrey;">
+		<section id="experience" class="team-area section-padding">
 			<div class="container">
 				<div class="row">
 					<!-- START SECTION TITLE DESIGN AREA -->
 					<div class="col-md-12">
 						<div class="section-title text-center">
 							<h2>Experience</h2>
-							<h4>Ten Years Designing The Digital</h4>
+							<h4>Over Ten Years Designing The Digital</h4>
 						</div>
 					</div>
 					<!-- / END SECTION TITLE DESIGN AREA -->
@@ -529,11 +484,6 @@
 									<div class="team-title">
 										<h4>Oliver Jahn</h4>
 										<p>Senior Product Designer</p>
-									</div>
-									<div class="team-social-link">
-										<a href="#"><i class="fa fa-linkedin"></i></a>
-  									<a href="#"><i class="fa fa-xing"></i></a>
-										<a href="#"><i class="fa fa-github"></i></a>
 									</div>
 								</div>
 							</div>
@@ -659,7 +609,7 @@
           <div class="col-md-4 col-sm-4">
             <h5>French</h5>
             <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <p>Fluent</p>
           </div>
@@ -672,14 +622,97 @@
 		</section>
 		<!-- / END TEAM DESIGN AREA -->
 
-    <!-- START CLIENTS AREA -->
-		<section id="pdf" class="clients-area section-padding text-center" style="background-color: grey;">
+		<!-- START TOOLS AREA -->
+		<section id="tools" class="skills-area section-padding text-center" style="background-color: #CCC;">
 			<div class="container">
 				<div class="row">
 					<!-- START SECTION TITLE DESIGN AREA -->
 					<div class="col-md-12">
 						<div class="section-title text-center">
-							<h2>Everything in One File?</h2>
+							<h2>Tools</h2>
+							<h4>A very awesome tagline</h4>
+						</div>
+					</div>
+					<!-- / END SECTION TITLE DESIGN AREA -->
+				</div>
+
+        <div class="row">
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_pen-paper.svg" />
+
+            <h5>Pen & Paper</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_sketch.svg" />
+
+            <h5>Sketch</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_craft.svg" />
+
+            <h5>Craft</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_invision.svg" />
+
+            <h5>Invision</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_html.svg" />
+
+            <h5>HTML</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_css.svg" />
+
+            <h5>CSS</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_axure.svg" />
+
+            <h5>Axure RP</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_photoshop.svg" />
+
+            <h5>Photoshop</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_illustrator.svg" />
+
+            <h5>Illustrator</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_indesign.svg" />
+
+            <h5>InDesign</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2  single-tool">
+            <img src="assets/img/tools/tool_atom.svg" />
+
+            <h5>Atom.io</h5>
+          </div>
+          <div class="col-sm-4 col-md-3 col-lg-2 single-tool">
+            <img src="assets/img/tools/tool_github.svg" />
+
+            <h5>GitHub</h5>
+          </div>
+        </div>
+			</div>
+		</section>
+		<!-- / END TOOLS DESIGN AREA -->
+
+    <!-- START PDF AREA -->
+		<section id="pdf" class="pdf-area section-padding text-center" style="background-color: grey;">
+			<div class="container">
+				<div class="row">
+					<!-- START SECTION TITLE DESIGN AREA -->
+					<div class="col-md-12">
+						<div class="section-title text-center">
+							<h2>Show Your Colleagues</h2>
+							<h4>CV And Works Samples In A Short Presentation</h4>
+
+              <div class="img-container"><img src="assets/img/cases/case_cornelsen.jpg" alt=""></div>
 						</div>
 					</div>
 					<!-- / END SECTION TITLE DESIGN AREA -->
@@ -689,7 +722,7 @@
 				</div>
 			</div>
 		</section>
-		<!-- / END CLIENTS DESIGN AREA -->
+		<!-- / END PDF AREA -->
 
 		<!-- START CONTACT DESIGN AREA -->
 		<section id="contact" class="contact-area section-padding">
@@ -704,99 +737,39 @@
 					</div>
 					<!-- / END SECTION TITLE DESIGN AREA -->
 				</div>
+        <div class="row">
+          <a class="button home-btn-bg col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1" href="mailto:contact@oliver-jahn.com">contact@oliver-jahn.com</a>
+          <a class="button home-btn col-md-4 col-sm-5" href="tel:004917312345678">+49 (0) 1 73 – 12 34 56 78</a>
+        </div>
 				<div class="row">
-					<!-- START CONTACT FORM DESIGN AREA -->
-					<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-						<form id="contact-form" method="post" action="contact.php">
-							<div class="row">
-								<div class="form-group col-md-12 col-sm-12">
-                  <h5>Your Name:</h5>
-                  <input type="text" placeholder="e.g. Virginia Potts" id="first-name" class="form-control" name="name" required="required">
-								</div>
-								<div class="form-group col-md-12 col-sm-12">
-                  <h5>Your Mail Address:</h5>
-                  <input type="email" placeholder="e.g. v.potts@stark.com" id="email" class="form-control" name="email" required="required">
-								</div>
-								<div class="form-group col-md-12 col-sm-12">
-                  <h5>Your Message:</h5>
-                  <textarea placeholder="e.g.&#10;Hi,&#10;I would like to know more about your services.&#10;Let's talk.&#10;Best,&#10;Pepper" id="description" class="form-control" name="message" rows="10" required="required"></textarea>
-								</div>
-								<div class="col-md-12  col-sm-12">
-									<div class="actions text-center">
-										<input type="submit" title="Submit Your Message!" class="button home-btn-bg" id="submitButton" name="submit" value="Send message">
-										<img src="assets/img/ajax-loader.gif" width="16" height="16" id="loader" style="display:none" alt="loading">
-									</div>
-								</div>
-							</div>
-						</form>
-					</div>
-					<!-- / END CONTACT FORM DESIGN AREA -->
-				</div>
+          <!-- START CONTACT INFO DESIGN AREA -->
+          <div class="col-md-3 col-sm-3 col-md-offset-2 col-sm-offset-1 social-media">
+          <a class="single-contact-info" href="http://www.linkedin.com/pub/oliver-jahn/83/591/61b" target="_blank">
+            <i class="fa fa-linkedin"></i>
+            <span>Oliver on LinkedIn</span>
+          </a>
+				  </div>
+          <!-- / END CONTACT INFO DESIGN AREA -->
+          <!-- START CONTACT INFO DESIGN AREA -->
+          <div class="col-md-3 col-sm-3 social-media">
+          <a class="single-contact-info" href="http://www.xing.com/profile/Oliver_Jahn14" target="_blank">
+            <i class="fa fa-xing"></i>
+            <span>Oliver on Xing</span>
+          </a>
+				  </div>
+          <!-- / END CONTACT INFO DESIGN AREA -->
+          <!-- START CONTACT INFO DESIGN AREA -->
+          <div class="col-md-3 col-sm-3 social-media">
+          <a class="single-contact-info" href="http://www.xing.com/profile/Oliver_Jahn14" target="_blank">
+            <i class="fa fa-facebook"></i>
+            <span>Oliver on Facebook</span>
+          </a>
+				  </div>
+          <!-- / END CONTACT INFO DESIGN AREA -->
+        </div>
 			</div>
 		</section>
 		<!-- / END CONTACT DESIGN AREA -->
-
-		<!-- START FOOTER TOP DESIGN AREA -->
-		<section class="footer-top-area section-padding">
-			<div class="container">
-				<div class="row">
-          <!-- Go to www.addthis.com/dashboard to customize your tools -->
-          <div class="addthis_inline_share_toolbox"></div>
-
-
-					<!-- START SINGLE FOOTER WIDGET DESIGN AREA -->
-					<div class="col-md-4 col-sm-4">
-						<div class="footer-widget">
-							<h4>Info</h4>
-							<p>Oliver is a senior product designer from Berlin who loves to help startups create engaging and usable MVPs that generate insightful learnings.</p>
-						</div>
-					</div>
-					<!-- / END SINGLE FOOTER WIDGET DESIGN AREA -->
-					<!-- START SINGLE FOOTER WIDGET DESIGN AREA -->
-					<div class="col-md-4 col-sm-4">
-						<div class="footer-widget">
-							<h4>Quick Links</h4>
-							<ul class="list-unstyled">
-								<li><a class="smoth-scroll" href="#mission"><i class="fa fa-angle-double-right"></i>Mission</a></li>
-								<li><a class="smoth-scroll" href="#services"><i class="fa fa-angle-double-right"></i>Services</a></li>
-								<li><a class="smoth-scroll" href="#tools"><i class="fa fa-angle-double-right"></i>Tools</a></li>
-								<li><a class="smoth-scroll" href="#cases"><i class="fa fa-angle-double-right"></i>Cases</a></li>
-								<li><a class="smoth-scroll" href="#experience"><i class="fa fa-angle-double-right"></i>Experience</a></li>
-								<li><a class="smoth-scroll" href="#clients"><i class="fa fa-angle-double-right"></i>Clients</a></li>
-								<li><a class="smoth-scroll" href="#contact"><i class="fa fa-angle-double-right"></i>Contact</a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- / END SINGLE FOOTER WIDGET DESIGN AREA -->
-					<!-- START SINGLE FOOTER WIDGET DESIGN AREA -->
-					<div class="col-md-4 col-sm-4">
-						<div class="footer-widget">
-							<h4>Contact Info</h4>
-							<!-- START CONTACT INFO DESIGN AREA -->
-							<a class="single-contact-info" href="mailto:me@domainname.com">
-								<i class="fa fa-envelope"></i>
-								<span>me@domainname.com</span>
-							</a>
-							<!-- / END CONTACT INFO DESIGN AREA -->
-							<!-- START CONTACT INFO DESIGN AREA -->
-							<a class="single-contact-info" href="http://www.linkedin.com/pub/oliver-jahn/83/591/61b" target="_blank">
-								<i class="fa fa-linkedin"></i>
-								<span>Oliver on LinkedIn</span>
-							</a>
-							<!-- / END CONTACT INFO DESIGN AREA -->
-							<!-- START CONTACT INFO DESIGN AREA -->
-							<a class="single-contact-info" href="http://www.xing.com/profile/Oliver_Jahn14" target="_blank">
-								<i class="fa fa-xing"></i>
-								<span>Oliver on Xing</span>
-							</a>
-							<!-- / END CONTACT INFO DESIGN AREA -->
-						</div>
-					</div>
-					<!-- / END SINGLE FOOTER WIDGET DESIGN AREA -->
-				</div>
-			</div>
-		</section>
-		<!-- / END FOOTER TOP DESIGN AREA -->
 
 		<!-- START FOOTER DESIGN AREA -->
 		<footer class="copyright text-center">

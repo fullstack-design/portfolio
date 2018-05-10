@@ -22,15 +22,9 @@
 	.mainmenu li  a {
 		font-size: 0.9412rem;
 	}
-	#home-carousel .item h1 {
-    text-align: left;
-	}
 }
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	#home-carousel .item h1 {
-    text-align: left;
-	}
 	.mainmenu li  a {
 		font-size: 1rem;
 	}
@@ -164,6 +158,10 @@
 		width: 50%;
 		padding: 0 15px;
 		box-sizing: border-box;
+		float: left;
+	}
+	.social-media {
+		width: 50%;
 		float: left;
 	}
 	.clients-area img {

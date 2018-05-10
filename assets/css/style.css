@@ -179,6 +179,7 @@ fieldset {
     -webkit-transition: 0.36s;
             transition:0.36s;
     letter-spacing: .1rem;
+    text-align: center;
 }
 .button:focus { color:#333 }
 .button:hover {
@@ -283,7 +284,7 @@ fieldset {
 *    02. START HEADER AREA CSS STYLE
 * -------------------------------------------------------------
 */
-.header-area { height: 100%; }
+.header-area { height: 95%; }
 .header-top-bar {
     background: #333 none repeat scroll 0 0;
     color: #fff;
@@ -367,7 +368,7 @@ fieldset {
 #home-carousel .item p {
     color: #fff;
     font-size: 1.286rem;
-    text-align: left;
+    text-align: center;
 }
 #home-carousel .item h1 {
     width: auto;
@@ -1285,15 +1286,15 @@ toggle {  0% {
   color: #FFF;
 }
 .scroll-indicator {
-  width: 44px;
-  height: 44px;
-  background: url(../img/scroll-indicator.svg) center no-repeat;
-  background-size: cover;
+  width: 105px;
+  height: 76px;
+  background: url(../img/scroll-indicator.svg) bottom no-repeat;
   display: block;
   position: absolute;
   bottom: 15px;
   left: 50%;
-  margin-left: -22px;
+  margin-left: -52px;
+  color: #FFF;
 }
 .experience-CV {
   width: 100%;
@@ -1346,6 +1347,7 @@ p.intro {
 }
 .img-container img {
   margin-bottom: 0;
+  max-width: 100%;
 }
 .single-project-area h3,
 .single-service-area h3 {
