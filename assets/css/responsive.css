@@ -187,6 +187,13 @@
 	.navbar-brand .claim {
 	    color: #000 !important;
 	}
+	.service-area div div.row {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.single-service img {
+    width: 130px;
+	}
 }
 
 /* Wide Mobile Layout: 480px. */
@@ -211,5 +218,31 @@
 	.navbar-brand .name,
 	.navbar-brand .claim {
 	    color: #000 !important;
+	}
+	.single-service .head {
+		width: 190px;
+		float: left;
+		padding-right: 15px;
+		margin-right: 15px;
+		border-right: 1px solid #DDD;
+	}
+	.single-service img {
+    width: 130px;
+	}
+	.service-list {
+    justify-content: flex-start;
+    border-top: none;
+    padding-top: 0;
+	}
+	.single-service a.read-more {
+    width: 7.357rem;
+    float: left;
+    position: static;
+    left: 0;
+    margin-left: auto;
+		float: right;
+	}
+	.single-service {
+    padding: 15px;
 	}
 }

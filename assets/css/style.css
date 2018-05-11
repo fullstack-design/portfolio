@@ -555,14 +555,25 @@ fieldset {
     background: #f6f6f6 none repeat scroll 0 0;
     padding-bottom: 50px;
 }
-.single-service {
-    background: #fff;
+.service-area div div.row {
+    display: flex;
+    align-content: stretch;
+}
+.service-area div div.row>div {
     margin-bottom: 30px;
+}
+.single-service {
+    float: left;
+    background: #fff;
     padding: 30px 15px 15px;
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
+    width: 100%;
+    height: 100%;
 }
-
+.single-service img {
+  width: 160px;
+}
 .single-service:hover { box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1) }
 .single-service i {
     font-size: 3.714rem;
@@ -594,7 +605,10 @@ a.read-more {
 }
 .single-service a.read-more {
     width: 7.357rem;
-    margin: 15px auto 0;
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-left: -3.66rem;
 }
 .single-service-area a.read-more,
 .single-project-area a.read-more {
@@ -871,16 +885,25 @@ toggle {  0% {
     margin-top: 10px;
 }
 .pricing-list, .service-list {
-    list-style: outside none none;
-    text-align: center;
-    padding: 0 15px;
+  list-style: outside none none;
+  text-align: center;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #DDD;
+  padding-top: 15px;
 }
 .pricing-list li, .service-list li {
-    border-bottom: 1px solid #eee;
-    color: #161616;
-    padding: 8px 0;
-    -webkit-transition: all 0.36s ease 0s;
-            transition: all 0.36s ease 0s;
+  color: #161616;
+  padding: 5px;
+  -webkit-transition: all 0.36s ease 0s;
+          transition: all 0.36s ease 0s;
+  font-size: 0.71rem;
+  background-color: #BBB;
+  border-radius: 5px;
+  margin: 5px;
+  white-space: nowrap;
 }
 .pricing-btn { padding: 25px 0 }
 .single-pricing.recommended {
