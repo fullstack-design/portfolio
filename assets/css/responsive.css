@@ -92,6 +92,9 @@
 	.is-sticky .navbar-brand {
     padding: 12px 0;
 	}
+	.service-list li {
+		font-size: .8rem;
+	}
 }
 
 /* Mobile Layout: 320px. */
@@ -193,6 +196,9 @@
 	}
 	.single-service img {
     width: 130px;
+	}
+	.service-list li {
+		font-size: .85rem;
 	}
 }
 

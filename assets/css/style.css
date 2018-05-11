@@ -274,6 +274,10 @@ fieldset {
     -webkit-transition: all 0.9s ease-out;
             transition: all 0.9s ease-out;
 }
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
 /*
 * -------------------------------------------------------------
 *    01. END GENAREL CSS STYLE
@@ -1099,10 +1103,8 @@ toggle {  0% {
 }
 .product-overlay > a.button { margin-top: 43% }
 .product-info {
-    height: 200px;
-    height: 250px;
-    padding: 72px 15px 0;
-    padding: 90px 15px 0;
+    height: 160px;
+    padding: 15px 15px 0;
     background-color: rgba(0,0,0,.5);
     -webkit-transition: all 0.36s ease-in-out 0s;
             transition: all 0.36s ease-in-out 0s;
