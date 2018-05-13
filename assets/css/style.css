@@ -1450,7 +1450,7 @@ p.quote {
 }
 div.timeline {
   width: 100%;
-  height: auto;
+  height: 230px;
   background-color: #DDD;
   float: left;
   clear: left;
@@ -1468,6 +1468,7 @@ div.timeline {
   /* Opera */
   width: -o-calc(100% - 90px);
   background-color: #EEE;
+  height: 100%;
 }
 #experience table {
   width: 2000px;
@@ -1502,21 +1503,17 @@ div.timeline {
 #experience .legend li {
   text-align: right;
   width: 90px;
-  height: 56px;
+  height: 3.3rem;
   padding: 18px 5px;
   box-sizing: border-box;
-}
-#experience .legend li:last-child {
-  height: 45px;
-  padding: 8px 5px;
 }
 #experience .scale td {
   width: 20px;
   height: 10px;
 }
-#experience .education td,
-#experience .employments td,
-#experience .freelancing td {
+#experience .education,
+#experience .employments,
+#experience .freelancing {
   padding: 5px;
   color: #FFF;
   font-size: .7rem;
@@ -1528,13 +1525,13 @@ div.timeline {
   position: relative;
   z-index: 50;
 }
-#experience .education td {
+#experience .education {
   background-color: #56C46F;
 }
-#experience .employments td {
+#experience .employments {
   background-color: #DAA430;
 }
-#experience .freelancing td {
+#experience .freelancing {
   background-color: #698DE7;
 }
 #experience td.empty {

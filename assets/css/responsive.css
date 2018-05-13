@@ -22,6 +22,13 @@
 	.mainmenu li  a {
 		font-size: 0.9412rem;
 	}
+	.hide-xl {
+		display: none;
+	}
+	#experience .legend li:last-child {
+	  height: 45px;
+	  padding: 0.824rem 5px;
+	}
 }
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -33,6 +40,13 @@
 	}
 	html {
 		font-size: 16px;
+	}
+	.hide-lg {
+		display: none;
+	}
+	#experience .legend li:last-child {
+	  height: 45px;
+	  padding: 0.824rem 5px;
 	}
 }
 
@@ -80,9 +94,6 @@
 	#home-carousel .item p {
 		text-align: center;
 	}
-	.team-area h4 {
-    margin-top: 45px;
-	}
 	.mainmenu li  a {
 		font-size: .88rem;
 	}
@@ -94,6 +105,13 @@
 	}
 	.service-list li {
 		font-size: .8rem;
+	}
+	.hide-md {
+		display: none;
+	}
+	#experience .legend li:last-child {
+	  height: 45px;
+	  padding: 0.824rem 5px;
 	}
 }
 
@@ -183,9 +201,6 @@
 	.mainmenu ul li:last-child a {
     padding-right: 15px;
 	}
-	.team-area h4 {
-    margin-top: 45px;
-	}
 	.navbar-brand .name,
 	.navbar-brand .claim {
 	    color: #000 !important;
@@ -225,6 +240,36 @@
     position: relative;
     top: 29px;
 	}
+	.hide-sm {
+		display: none;
+	}
+	div.timeline {
+	  height: 215px;
+	}
+	#experience .legend li {
+		float: left;
+		text-align: left;
+	}
+	#experience table tr td:nth-child(2) {
+		width: 10px;
+		height: 10px;
+    border-top: 1px solid #AAA;
+		display: block;
+	}
+	div.timeline {
+		height: auto;
+	}
+	#expertise table {
+		width: 100%;
+	}
+	#expertise table tr td:nth-child(1) {
+
+	}
+	#expertise table tr td:nth-child(3),
+	#expertise table tr td:nth-child(4),
+	#expertise table tr td:nth-child(5) {
+		width: 30%;
+	}
 }
 
 /* Wide Mobile Layout: 480px. */
@@ -242,9 +287,6 @@
 	}
 	.mainmenu ul li:last-child a {
     padding-right: 15px;
-	}
-	.team-area h4 {
-    margin-top: 45px;
 	}
 	.navbar-brand .name,
 	.navbar-brand .claim {
