@@ -84,7 +84,7 @@
     margin-top: 45px;
 	}
 	.mainmenu li  a {
-		font-size: 1rem;
+		font-size: .88rem;
 	}
 	header .container {
 		width: 100%;
@@ -200,6 +200,31 @@
 	.service-list li {
 		font-size: .85rem;
 	}
+	.availability {
+    top: 70px;
+    right: 20px;
+    width: 130px;
+    height: 130px;
+    padding-top: 30px;
+	}
+	.availability h2 {
+		font-size: 1.43rem;
+		margin-top: -3px;
+	}
+	.availability h4 {
+	  font-size: 1rem;
+		margin-top: -5px;
+	}
+	.availability h6 {
+	  font-size: .85rem;
+	}
+	header p {
+		margin-bottom: 15px;
+	}
+	.availablity-correct {
+    position: relative;
+    top: 29px;
+	}
 }
 
 /* Wide Mobile Layout: 480px. */
@@ -250,5 +275,8 @@
 	}
 	.single-service {
     padding: 15px;
+	}
+	.single-tool, .single-client {
+    width: 25%;
 	}
 }

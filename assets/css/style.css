@@ -59,7 +59,7 @@ h6 {
 }
 h1 {
     font-size: 3rem;
-    line-height: 150%;
+    line-height: 130%;
     font-weight: 700;
 }
 h2 {
@@ -82,10 +82,11 @@ h5 {
 }
 h6 {
     line-height: 150%;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 1rem;
 }
 p, ul {
-  line-height: 2;
+  line-height: 1.6;
   margin-bottom: 28px;
 }
 ul {
@@ -121,8 +122,7 @@ fieldset {
     margin: 0 auto;
     padding: 0;
 }
-.section-padding h2,
-.section-padding h4:first-child {
+.section-padding h2 {
     margin-top: 30px;
 }
 .section-padding .container>div:last-child {
@@ -278,6 +278,26 @@ fieldset {
   width: 100%;
   max-width: 1200px;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 /*
 * -------------------------------------------------------------
 *    01. END GENAREL CSS STYLE
@@ -414,6 +434,9 @@ fieldset {
     margin-right: 10px;
     color: #FFF;
 }
+header .home-btn-bg {
+    margin-right: 0;
+}
 /*
 * -------------------------------------------------------------
 *    02. END HEADER AREA CSS STYLE
@@ -485,7 +508,7 @@ fieldset {
     color: #fff !important;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1rem;
     padding: 30px 15px;
     -webkit-transition: all 0.36s ease-in-out 0s;
@@ -1311,14 +1334,14 @@ toggle {  0% {
   color: #FFF;
 }
 .scroll-indicator {
-  width: 105px;
+  width: 85px;
   height: 76px;
   background: url(../img/scroll-indicator.svg) bottom no-repeat;
   display: block;
   position: absolute;
   bottom: 15px;
   left: 50%;
-  margin-left: -52px;
+  margin-left: -42px;
   color: #FFF;
 }
 .experience-CV {
@@ -1404,4 +1427,124 @@ footer a {
   color: #FFF;
   line-height: 44px;
   text-decoration: underline;
+}
+p.quote {
+  font-style: italic;
+  margin-top: 1rem;
+}
+.availability {
+  background-color: #FFF;
+  position: absolute;
+  top: 110px;
+  right: 30px;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+  transform: rotate(10deg);
+}
+.availability h4 {
+  margin-top: -8px;
+}
+div.timeline {
+  width: 100%;
+  height: auto;
+  background-color: #DDD;
+  float: left;
+  clear: left;
+}
+#experience .scrollable {
+  float: left;
+  overflow-x: scroll;
+  padding-bottom: 10px;
+  /* Standard */
+  width: calc(100% - 90px);
+  /* Firefox */
+  width: -moz-calc(100% - 90px);
+  /* WebKit */
+  width: -webkit-calc(100% - 90px);
+  /* Opera */
+  width: -o-calc(100% - 90px);
+  background-color: #EEE;
+}
+#experience table {
+  width: 2000px;
+  border-collapse: separate;
+}
+#experience table tr {
+  position: relative;
+  padding-left: 200px;
+}
+#experience table .scale td {
+  border-right: 1px solid #AAA;
+}
+#experience table .scale td:nth-child(12n+5) {
+  border-right: 3px solid #AAA;
+}
+#experience .year td {
+  text-align: center;
+  padding-top: 5px;
+}
+#experience .year td,
+#experience .legend li {
+  font-size: .8rem;
+  color: #666;
+  font-weight: 600;
+}
+#experience .legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+#experience .legend li {
+  text-align: right;
+  width: 90px;
+  height: 56px;
+  padding: 18px 5px;
+  box-sizing: border-box;
+}
+#experience .legend li:last-child {
+  height: 45px;
+  padding: 8px 5px;
+}
+#experience .scale td {
+  width: 20px;
+  height: 10px;
+}
+#experience .education td,
+#experience .employments td,
+#experience .freelancing td {
+  padding: 5px;
+  color: #FFF;
+  font-size: .7rem;
+  border-top: 5px solid #EEE;
+  border-bottom: 5px solid #EEE;
+  border-left: 2px solid #EEE;
+  border-right: 2px solid #EEE;
+  text-align: center;
+  position: relative;
+  z-index: 50;
+}
+#experience .education td {
+  background-color: #56C46F;
+}
+#experience .employments td {
+  background-color: #DAA430;
+}
+#experience .freelancing td {
+  background-color: #698DE7;
+}
+#experience td.empty {
+  background: none;
+}
+#experience table h6 {
+  font-size: .8rem;
+  color: #FFF;
+  font-weight: 500;
+}
+#experience table td {
+  width: 10px;
 }
