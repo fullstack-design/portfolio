@@ -1450,66 +1450,21 @@ p.quote {
 }
 div.timeline {
   width: 100%;
-  height: 230px;
   background-color: #DDD;
   float: left;
   clear: left;
 }
-#experience .scrollable {
-  float: left;
-  overflow-x: scroll;
-  padding-bottom: 10px;
-  /* Standard */
-  width: calc(100% - 90px);
-  /* Firefox */
-  width: -moz-calc(100% - 90px);
-  /* WebKit */
-  width: -webkit-calc(100% - 90px);
-  /* Opera */
-  width: -o-calc(100% - 90px);
-  background-color: #EEE;
-  height: 100%;
-}
 #experience table {
-  width: 2000px;
   border-collapse: separate;
 }
-#experience table tr {
-  position: relative;
-  padding-left: 200px;
-}
-#experience table .scale td {
-  border-right: 1px solid #AAA;
-}
-#experience table .scale td:nth-child(12n+5) {
-  border-right: 3px solid #AAA;
-}
-#experience .year td {
-  text-align: center;
-  padding-top: 5px;
-}
 #experience .year td,
-#experience .legend li {
+#experience .legend * {
   font-size: .8rem;
   color: #666;
   font-weight: 600;
-}
-#experience .legend {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  float: left;
-}
-#experience .legend li {
-  text-align: right;
-  width: 90px;
   height: 3.3rem;
   padding: 18px 5px;
   box-sizing: border-box;
-}
-#experience .scale td {
-  width: 20px;
-  height: 10px;
 }
 #experience .education,
 #experience .employments,
@@ -1517,11 +1472,6 @@ div.timeline {
   padding: 5px;
   color: #FFF;
   font-size: .7rem;
-  border-top: 5px solid #EEE;
-  border-bottom: 5px solid #EEE;
-  border-left: 2px solid #EEE;
-  border-right: 2px solid #EEE;
-  text-align: center;
   position: relative;
   z-index: 50;
 }
