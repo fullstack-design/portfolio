@@ -1366,14 +1366,14 @@ toggle {  0% {
   color: #FFF;
 }
 .scroll-indicator {
-  width: 85px;
+  width: 100px;
   height: 76px;
   background: url(../img/scroll-indicator.svg) bottom no-repeat;
   display: block;
   position: absolute;
   bottom: 15px;
   left: 50%;
-  margin-left: -42px;
+  margin-left: -50px;
   color: #FFF;
 }
 .experience-CV {
@@ -1526,4 +1526,11 @@ div.timeline {
 }
 #experience table td {
   width: 10px;
+}
+p a {
+  color: inherit;
+  text-decoration: underline;
+}
+p a:hover {
+  color: inherit;
 }
