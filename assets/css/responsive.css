@@ -270,7 +270,7 @@
 	#experience .freelancing {
 		/* width: 30%; */
 	}
-	#experience table tr:nth-child(12n+6) td.month {
+	#experience table tr:nth-child(12n+7) td.month {
 		border-top: 3px solid #AAA;
 	}
 	div.timeline {
@@ -282,13 +282,18 @@
 		width: 8px;
 	}
 	#experience table tr {
-		width: 100%;
 	}
 	#experience table tr:nth-child(2) td.month {
 		border-top: none;
 	}
 	tr:first-child {
 		background-color: #DDD;
+	}
+	#experience table col.year-number {
+		width: 3rem;
+	}
+	#experience table col.year-lines {
+		width: 8px;
 	}
 	#experience .education,
 	#experience .employments,
@@ -298,21 +303,14 @@
 	 	border-top: 2px solid #EEE;
 		border-bottom: 2px solid #EEE;
 		font-size: .8rem;
-	  /* Standard */
-	  width: calc(33% - 1.45rem - 9px);
-	  /* Firefox */
-	  width: -moz-calc(33% - 1.45rem - 9px);
-	  /* WebKit */
-	  width: -webkit-calc(33% - 1.45rem - 9px);
-	  /* Opera */
-	  width: -o-calc(33% - 1.45rem - 9px);
-		display: block;
 	}
 	#experience table tr td.year {
 		vertical-align: bottom;
 		padding: 0 5px;
 		box-sizing: border-box;
 		width: 2.9rem;
+		position: relative;
+    bottom: -0.75rem;
 	}
 	#experience .year,
 	#experience .legend * {
@@ -322,7 +320,8 @@
 	}
 	#experience table td {
     width: auto;
-	}#experience table h6 {
+	}
+	#experience table h6 {
     font-size: .9rem;
   }
 }
@@ -378,7 +377,7 @@
 	}
 }
 /* Desktop Experience Layout */
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 768px) {
 	div.timeline {
 	  height: 230px;
 	}
@@ -407,8 +406,10 @@
 	  border-right: 3px solid #AAA;
 	}
 	#experience .year td {
-	  text-align: center;
-	  padding-top: 5px;
+	  text-align: left;
+	  padding: 5px;
+    position: relative;
+    left: -1.3rem;
 	}
 	#experience .legend {
 	  list-style: none;
